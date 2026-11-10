@@ -52,7 +52,7 @@ Um teste verifica a regra da dependência: se o núcleo importar FastAPI ou SQLi
 
 ## Ver online
 
-**[link do sistema]** · a versão gratuita "dorme" quando ninguém usa: o primeiro acesso pode levar cerca de 1 minuto.
+   **[enjoy-guarulhos.onrender.com](https://enjoy-guarulhos.onrender.com)** · a versão gratuita "dorme" quando ninguém usa: o primeiro acesso pode levar cerca de 1 minuto.
 
 ## Como rodar
 
