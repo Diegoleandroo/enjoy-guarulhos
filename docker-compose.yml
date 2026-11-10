@@ -1,0 +1,14 @@
+services:
+  enjoy:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      ENJOY_REPOSITORIO: ${ENJOY_REPOSITORIO:-sqlite}
+      ENJOY_DB: /app/banco/enjoy.db
+      ANTHROPIC_API_KEY: ${ANTHROPIC_API_KEY:-}
+    volumes:
+      - banco-enjoy:/app/banco
+
+volumes:
+  banco-enjoy:

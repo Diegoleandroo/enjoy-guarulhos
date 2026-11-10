@@ -1,0 +1,3914 @@
+{
+ "escolas": [
+  {
+   "id": "esc-etec",
+   "nome": "Etec de Guarulhos",
+   "bairro": "Parque Cecap",
+   "cidade": "Guarulhos",
+   "latitude": -23.456,
+   "longitude": -46.496,
+   "endereco": "R. Cristobal Claudio Elillo, 88"
+  },
+  {
+   "id": "esc-pimentas3",
+   "nome": "EE Pimentas III",
+   "bairro": "Pimentas",
+   "cidade": "Guarulhos",
+   "latitude": -23.446,
+   "longitude": -46.406,
+   "endereco": ""
+  },
+  {
+   "id": "esc-allyrio",
+   "nome": "EE Prof. Allyrio de Figueiredo Brasil",
+   "bairro": "Vila Fátima",
+   "cidade": "Guarulhos",
+   "latitude": -23.456,
+   "longitude": -46.518,
+   "endereco": "R. Duque de Caxias, 195"
+  },
+  {
+   "id": "esc-plinio",
+   "nome": "EE Plinio Paulo Braga",
+   "bairro": "Taboão",
+   "cidade": "Guarulhos",
+   "latitude": -23.42,
+   "longitude": -46.533,
+   "endereco": "Av. Otávio Braga de Mesquita, 3900"
+  },
+  {
+   "id": "esc-mhelena",
+   "nome": "EE Maria Helena Faria Lima e Cunha",
+   "bairro": "Cabuçu",
+   "cidade": "Guarulhos",
+   "latitude": -23.385,
+   "longitude": -46.53,
+   "endereco": "Av. Pedro de Souza Lopes, 7800"
+  },
+  {
+   "id": "esc-hernani",
+   "nome": "EE Hernani Furini",
+   "bairro": "Jardim São João",
+   "cidade": "Guarulhos",
+   "latitude": -23.415,
+   "longitude": -46.452,
+   "endereco": "Av. Bom Jesus, 371"
+  },
+  {
+   "id": "esc-haroldo",
+   "nome": "EE Brigadeiro Haroldo Veloso",
+   "bairro": "Haroldo Veloso",
+   "cidade": "Guarulhos",
+   "latitude": -23.45,
+   "longitude": -46.462,
+   "endereco": "R. Ester, 58"
+  },
+  {
+   "id": "esc-carmina",
+   "nome": "EE Carmina Mendes Seródio",
+   "bairro": "Cidade Seródio",
+   "cidade": "Guarulhos",
+   "latitude": -23.398,
+   "longitude": -46.418,
+   "endereco": "Av. Abílio Mendes de Oliveira, 23"
+  },
+  {
+   "id": "esc-maestro",
+   "nome": "EE Maestro João Carlos Martins",
+   "bairro": "Bonsucesso",
+   "cidade": "Guarulhos",
+   "latitude": -23.412,
+   "longitude": -46.394,
+   "endereco": "R. Gabriela Gurgel de Freitas, 179"
+  },
+  {
+   "id": "esc-mbombassei",
+   "nome": "EE Prof. Mario Bombassei Filho",
+   "bairro": "Ponte Alta",
+   "cidade": "Guarulhos",
+   "latitude": -23.43,
+   "longitude": -46.418,
+   "endereco": "R. Olvídio Camilo, 100"
+  }
+ ],
+ "empresas": [
+  {
+   "id": "emp-trilha",
+   "nome": "Trilha Software",
+   "bairro": "Centro",
+   "setor": "Software sob medida"
+  },
+  {
+   "id": "emp-pista",
+   "nome": "Pista Azul Logística",
+   "bairro": "Cumbica",
+   "setor": "Logística aeroportuária"
+  },
+  {
+   "id": "emp-pixel",
+   "nome": "Pixel Guaru",
+   "bairro": "Vila Galvão",
+   "setor": "Agência digital"
+  },
+  {
+   "id": "emp-forja",
+   "nome": "Forja Nova Metalurgia",
+   "bairro": "Bonsucesso",
+   "setor": "Indústria"
+  },
+  {
+   "id": "emp-cuidar",
+   "nome": "Cuidar+ Clínicas",
+   "bairro": "Centro",
+   "setor": "Saúde"
+  },
+  {
+   "id": "emp-mercado",
+   "nome": "Mercado Bom Preço",
+   "bairro": "Pimentas",
+   "setor": "Varejo"
+  }
+ ],
+ "vagas": [
+  {
+   "id": "vaga-backend",
+   "empresa_id": "emp-trilha",
+   "titulo": "Estágio em desenvolvimento back-end",
+   "modalidade": "hibrido",
+   "turno": "tarde",
+   "obrigatorias": [
+    "Python",
+    "SQL",
+    "Git"
+   ],
+   "desejaveis": [
+    "API REST",
+    "Testes automatizados",
+    "Docker"
+   ],
+   "descricao": "Apoiar o time na criação de APIs para clientes do comércio de Guarulhos."
+  },
+  {
+   "id": "vaga-front",
+   "empresa_id": "emp-pixel",
+   "titulo": "Estágio em front-end",
+   "modalidade": "presencial",
+   "turno": "manha",
+   "obrigatorias": [
+    "HTML",
+    "CSS",
+    "JavaScript"
+   ],
+   "desejaveis": [
+    "React",
+    "Figma",
+    "Git"
+   ],
+   "descricao": "Construir sites e landing pages para clientes da agência."
+  },
+  {
+   "id": "vaga-dados",
+   "empresa_id": "emp-pista",
+   "titulo": "Jovem aprendiz em dados",
+   "modalidade": "presencial",
+   "turno": "tarde",
+   "obrigatorias": [
+    "Excel",
+    "SQL"
+   ],
+   "desejaveis": [
+    "Power BI",
+    "Python"
+   ],
+   "descricao": "Montar relatórios de movimentação de cargas do aeroporto."
+  },
+  {
+   "id": "vaga-suporte",
+   "empresa_id": "emp-forja",
+   "titulo": "Estágio em suporte de TI",
+   "modalidade": "presencial",
+   "turno": "manha",
+   "obrigatorias": [
+    "Suporte técnico",
+    "Redes"
+   ],
+   "desejaveis": [
+    "Excel"
+   ],
+   "descricao": "Atender os setores da fábrica e manter os equipamentos."
+  },
+  {
+   "id": "vaga-mobile",
+   "empresa_id": "emp-cuidar",
+   "titulo": "Estágio em desenvolvimento mobile",
+   "modalidade": "remoto",
+   "turno": "tarde",
+   "obrigatorias": [
+    "Kotlin",
+    "Git"
+   ],
+   "desejaveis": [
+    "Flutter",
+    "API REST",
+    "Figma"
+   ],
+   "descricao": "Evoluir o app de agendamento de consultas."
+  },
+  {
+   "id": "vaga-sistemas",
+   "empresa_id": "emp-mercado",
+   "titulo": "Jovem aprendiz em sistemas",
+   "modalidade": "presencial",
+   "turno": "tarde",
+   "obrigatorias": [
+    "Lógica de programação",
+    "Excel"
+   ],
+   "desejaveis": [
+    "SQL",
+    "Python"
+   ],
+   "descricao": "Automatizar planilhas de estoque das lojas."
+  }
+ ],
+ "alunos": [
+  {
+   "id": "aluno-001",
+   "nome": "Alice Teles",
+   "escola_id": "esc-etec",
+   "curso": "Técnico em Desenvolvimento de Sistemas",
+   "modulo": 3,
+   "turnos": [
+    "noite"
+   ],
+   "modalidades": [
+    "hibrido",
+    "remoto"
+   ],
+   "habilidades": [
+    "Kotlin",
+    "Flutter",
+    "Git",
+    "Figma",
+    "API REST",
+    "Java"
+   ],
+   "desempenho": {
+    "media_tecnico": 6.8,
+    "media_regular": 6.6,
+    "frequencia": 84,
+    "comprometimento": 2,
+    "responsabilidade": 3,
+    "disciplina": 2
+   },
+   "observacao": "Responsável com prazos; participa da monitoria do laboratório.",
+   "projetos": [
+    {
+     "titulo": "App de lista de compras",
+     "descricao": "Listas compartilhadas com a família.",
+     "link": ""
+    },
+    {
+     "titulo": "App de horários de ônibus de Guarulhos",
+     "descricao": "Consulta linhas e avisa o próximo horário.",
+     "link": ""
+    }
+   ],
+   "autorizado": true
+  },
+  {
+   "id": "aluno-002",
+   "nome": "Felipe Moura",
+   "escola_id": "esc-allyrio",
+   "curso": "Técnico em Desenvolvimento de Sistemas",
+   "modulo": 2,
+   "turnos": [
+    "noite"
+   ],
+   "modalidades": [
+    "hibrido",
+    "presencial",
+    "remoto"
+   ],
+   "habilidades": [
+    "Suporte técnico",
+    "Redes",
+    "Excel",
+    "Lógica de programação"
+   ],
+   "desempenho": {
+    "media_tecnico": 7.7,
+    "media_regular": 7.8,
+    "frequencia": 83,
+    "comprometimento": 3,
+    "responsabilidade": 3,
+    "disciplina": 3
+   },
+   "observacao": "Curioso(a), sempre traz soluções além do pedido.",
+   "projetos": [
+    {
+     "titulo": "Rede do grêmio estudantil",
+     "descricao": "Montagem e documentação de uma rede pequena.",
+     "link": ""
+    }
+   ],
+   "autorizado": false
+  },
+  {
+   "id": "aluno-003",
+   "nome": "Manuela Queiroz",
+   "escola_id": "esc-maestro",
+   "curso": "Técnico em Desenvolvimento de Sistemas",
+   "modulo": 1,
+   "turnos": [
+    "noite"
+   ],
+   "modalidades": [
+    "hibrido",
+    "presencial",
+    "remoto"
+   ],
+   "habilidades": [
+    "Kotlin",
+    "Flutter",
+    "Git",
+    "API REST"
+   ],
+   "desempenho": {
+    "media_tecnico": 7.5,
+    "media_regular": 8.1,
+    "frequencia": 87,
+    "comprometimento": 5,
+    "responsabilidade": 4,
+    "disciplina": 4
+   },
+   "observacao": "",
+   "projetos": [
+    {
+     "titulo": "App de horários de ônibus de Guarulhos",
+     "descricao": "Consulta linhas e avisa o próximo horário.",
+     "link": ""
+    }
+   ],
+   "autorizado": true
+  },
+  {
+   "id": "aluno-004",
+   "nome": "Heitor Campos",
+   "escola_id": "esc-plinio",
+   "curso": "Técnico em Desenvolvimento de Sistemas",
+   "modulo": 3,
+   "turnos": [
+    "tarde",
+    "noite"
+   ],
+   "modalidades": [
+    "hibrido",
+    "remoto"
+   ],
+   "habilidades": [
+    "Excel",
+    "SQL",
+    "Python",
+    "Git",
+    "Power BI",
+    "Kanban"
+   ],
+   "desempenho": {
+    "media_tecnico": 10,
+    "media_regular": 7.9,
+    "frequencia": 92,
+    "comprometimento": 5,
+    "responsabilidade": 5,
+    "disciplina": 4
+   },
+   "observacao": "Responsável com prazos; participa da monitoria do laboratório.",
+   "projetos": [
+    {
+     "titulo": "Análise de vagas de estágio",
+     "descricao": "Planilha com as habilidades mais pedidas na cidade.",
+     "link": ""
+    },
+    {
+     "titulo": "Painel de frequência da turma",
+     "descricao": "Gráficos de presença por mês, sem expor nomes.",
+     "link": ""
+    }
+   ],
+   "autorizado": true
+  },
+  {
+   "id": "aluno-005",
+   "nome": "Júlia Vasconcelos",
+   "escola_id": "esc-pimentas3",
+   "curso": "Técnico em Desenvolvimento de Sistemas",
+   "modulo": 1,
+   "turnos": [
+    "tarde",
+    "noite"
+   ],
+   "modalidades": [
+    "hibrido",
+    "presencial",
+    "remoto"
+   ],
+   "habilidades": [
+    "HTML",
+    "CSS",
+    "JavaScript"
+   ],
+   "desempenho": {
+    "media_tecnico": 9.3,
+    "media_regular": 9.9,
+    "frequencia": 88,
+    "comprometimento": 5,
+    "responsabilidade": 5,
+    "disciplina": 4
+   },
+   "observacao": "Muito comprometido(a) com as entregas; ajuda os colegas nos projetos.",
+   "projetos": [
+    {
+     "titulo": "Portfólio pessoal",
+     "descricao": "Site com projetos, feito do zero com HTML e CSS.",
+     "link": ""
+    }
+   ],
+   "autorizado": true
+  },
+  {
+   "id": "aluno-006",
+   "nome": "Gustavo Cardoso",
+   "escola_id": "esc-maestro",
+   "curso": "Técnico em Desenvolvimento de Sistemas",
+   "modulo": 3,
+   "turnos": [
+    "manha",
+    "tarde"
+   ],
+   "modalidades": [
+    "hibrido",
+    "remoto"
+   ],
+   "habilidades": [
+    "Python",
+    "SQL",
+    "Git",
+    "Docker",
+    "FastAPI",
+    "Java"
+   ],
+   "desempenho": {
+    "media_tecnico": 7.9,
+    "media_regular": 8.6,
+    "frequencia": 90,
+    "comprometimento": 4,
+    "responsabilidade": 4,
+    "disciplina": 4
+   },
+   "observacao": "Precisa melhorar a frequência, mas tem bom potencial técnico.",
+   "projetos": [
+    {
+     "titulo": "API de biblioteca escolar",
+     "descricao": "Empréstimos e devoluções com regras de prazo e testes.",
+     "link": ""
+    },
+    {
+     "titulo": "Controle de estoque da cantina",
+     "descricao": "API com relatório de itens mais vendidos.",
+     "link": ""
+    }
+   ],
+   "autorizado": true
+  },
+  {
+   "id": "aluno-007",
+   "nome": "Isabela Moura",
+   "escola_id": "esc-hernani",
+   "curso": "Técnico em Desenvolvimento de Sistemas",
+   "modulo": 2,
+   "turnos": [
+    "tarde"
+   ],
+   "modalidades": [
+    "hibrido",
+    "remoto"
+   ],
+   "habilidades": [
+    "Excel",
+    "SQL",
+    "Python",
+    "Git",
+    "Power BI",
+    "Inteligência Artificial"
+   ],
+   "desempenho": {
+    "media_tecnico": 9.4,
+    "media_regular": 7.6,
+    "frequencia": 88,
+    "comprometimento": 4,
+    "responsabilidade": 3,
+    "disciplina": 3
+   },
+   "observacao": "",
+   "projetos": [
+    {
+     "titulo": "Análise de vagas de estágio",
+     "descricao": "Planilha com as habilidades mais pedidas na cidade.",
+     "link": ""
+    }
+   ],
+   "autorizado": true
+  },
+  {
+   "id": "aluno-008",
+   "nome": "Davi Prado",
+   "escola_id": "esc-allyrio",
+   "curso": "Técnico em Desenvolvimento de Sistemas",
+   "modulo": 2,
+   "turnos": [
+    "manha",
+    "tarde"
+   ],
+   "modalidades": [
+    "presencial"
+   ],
+   "habilidades": [
+    "Python",
+    "SQL",
+    "Git",
+    "API REST",
+    "Java",
+    "Scrum"
+   ],
+   "desempenho": {
+    "media_tecnico": 5.4,
+    "media_regular": 6.2,
+    "frequencia": 70,
+    "comprometimento": 3,
+    "responsabilidade": 2,
+    "disciplina": 2
+   },
+   "observacao": "Precisa melhorar a frequência, mas tem bom potencial técnico.",
+   "projetos": [
+    {
+     "titulo": "API de biblioteca escolar",
+     "descricao": "Empréstimos e devoluções com regras de prazo e testes.",
+     "link": ""
+    }
+   ],
+   "autorizado": true
+  },
+  {
+   "id": "aluno-009",
+   "nome": "Alice Queiroz",
+   "escola_id": "esc-plinio",
+   "curso": "Técnico em Desenvolvimento de Sistemas",
+   "modulo": 2,
+   "turnos": [
+    "manha"
+   ],
+   "modalidades": [
+    "hibrido",
+    "presencial"
+   ],
+   "habilidades": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "React",
+    "Figma"
+   ],
+   "desempenho": {
+    "media_tecnico": 8.8,
+    "media_regular": 9.1,
+    "frequencia": 92,
+    "comprometimento": 4,
+    "responsabilidade": 5,
+    "disciplina": 3
+   },
+   "observacao": "Curioso(a), sempre traz soluções além do pedido.",
+   "projetos": [
+    {
+     "titulo": "Site da feira de profissões",
+     "descricao": "Página responsiva com agenda e inscrições.",
+     "link": ""
+    }
+   ],
+   "autorizado": true
+  },
+  {
+   "id": "aluno-010",
+   "nome": "Pedro Ribeiro",
+   "escola_id": "esc-plinio",
+   "curso": "Técnico em Desenvolvimento de Sistemas",
+   "modulo": 3,
+   "turnos": [
+    "manha"
+   ],
+   "modalidades": [
+    "hibrido",
+    "remoto"
+   ],
+   "habilidades": [
+    "Excel",
+    "SQL",
+    "Python",
+    "Power BI",
+    "Git",
+    "Inteligência Artificial"
+   ],
+   "desempenho": {
+    "media_tecnico": 7.0,
+    "media_regular": 7.5,
+    "frequencia": 77,
+    "comprometimento": 3,
+    "responsabilidade": 3,
+    "disciplina": 3
+   },
+   "observacao": "Evoluiu muito neste semestre, principalmente em lógica.",
+   "projetos": [
+    {
+     "titulo": "Análise de vagas de estágio",
+     "descricao": "Planilha com as habilidades mais pedidas na cidade.",
+     "link": ""
+    },
+    {
+     "titulo": "Painel de frequência da turma",
+     "descricao": "Gráficos de presença por mês, sem expor nomes.",
+     "link": ""
+    }
+   ],
+   "autorizado": true
+  },
+  {
+   "id": "aluno-011",
+   "nome": "Júlia Campos",
+   "escola_id": "esc-carmina",
+   "curso": "Técnico em Desenvolvimento de Sistemas",
+   "modulo": 1,
+   "turnos": [
+    "manha",
+    "tarde"
+   ],
+   "modalidades": [
+    "hibrido",
+    "remoto"
+   ],
+   "habilidades": [
+    "Excel",
+    "SQL",
+    "Python",
+    "Scrum"
+   ],
+   "desempenho": {
+    "media_tecnico": 8.6,
+    "media_regular": 6.7,
+    "frequencia": 89,
+    "comprometimento": 4,
+    "responsabilidade": 4,
+    "disciplina": 3
+   },
+   "observacao": "Responsável com prazos; participa da monitoria do laboratório.",
+   "projetos": [
+    {
+     "titulo": "Painel de frequência da turma",
+     "descricao": "Gráficos de presença por mês, sem expor nomes.",
+     "link": ""
+    }
+   ],
+   "autorizado": false
+  },
+  {
+   "id": "aluno-012",
+   "nome": "Isabela Dias",
+   "escola_id": "esc-haroldo",
+   "curso": "Técnico em Desenvolvimento de Sistemas",
+   "modulo": 3,
+   "turnos": [
+    "manha",
+    "tarde"
+   ],
+   "modalidades": [
+    "presencial"
+   ],
+   "habilidades": [
+    "Kotlin",
+    "Flutter",
+    "Git",
+    "Figma",
+    "Java",
+    "API REST"
+   ],
+   "desempenho": {
+    "media_tecnico": 9.9,
+    "media_regular": 10,
+    "frequencia": 97,
+    "comprometimento": 4,
+    "responsabilidade": 5,
+    "disciplina": 5
+   },
+   "observacao": "Precisa melhorar a frequência, mas tem bom potencial técnico.",
+   "projetos": [
+    {
+     "titulo": "App de lista de compras",
+     "descricao": "Listas compartilhadas com a família.",
+     "link": ""
+    },
+    {
+     "titulo": "App de horários de ônibus de Guarulhos",
+     "descricao": "Consulta linhas e avisa o próximo horário.",
+     "link": ""
+    }
+   ],
+   "autorizado": true
+  },
+  {
+   "id": "aluno-013",
+   "nome": "Rafael Ribeiro",
+   "escola_id": "esc-etec",
+   "curso": "Técnico em Desenvolvimento de Sistemas",
+   "modulo": 2,
+   "turnos": [
+    "manha"
+   ],
+   "modalidades": [
+    "presencial"
+   ],
+   "habilidades": [
+    "Suporte técnico",
+    "Redes",
+    "Excel",
+    "Lógica de programação",
+    "Inteligência Artificial"
+   ],
+   "desempenho": {
+    "media_tecnico": 6.8,
+    "media_regular": 6.4,
+    "frequencia": 77,
+    "comprometimento": 2,
+    "responsabilidade": 3,
+    "disciplina": 2
+   },
+   "observacao": "",
+   "projetos": [
+    {
+     "titulo": "Rede do grêmio estudantil",
+     "descricao": "Montagem e documentação de uma rede pequena.",
+     "link": ""
+    }
+   ],
+   "autorizado": true
+  },
+  {
+   "id": "aluno-014",
+   "nome": "Beatriz Vasconcelos",
+   "escola_id": "esc-hernani",
+   "curso": "Técnico em Desenvolvimento de Sistemas",
+   "modulo": 3,
+   "turnos": [
+    "manha",
+    "tarde"
+   ],
+   "modalidades": [
+    "hibrido",
+    "remoto"
+   ],
+   "habilidades": [
+    "Kotlin",
+    "Flutter",
+    "Git",
+    "API REST",
+    "Figma",
+    "Java",
+    "Scrum"
+   ],
+   "desempenho": {
+    "media_tecnico": 7.3,
+    "media_regular": 6.8,
+    "frequencia": 82,
+    "comprometimento": 2,
+    "responsabilidade": 3,
+    "disciplina": 4
+   },
+   "observacao": "Responsável com prazos; participa da monitoria do laboratório.",
+   "projetos": [
+    {
+     "titulo": "App de horários de ônibus de Guarulhos",
+     "descricao": "Consulta linhas e avisa o próximo horário.",
+     "link": ""
+    },
+    {
+     "titulo": "App de lista de compras",
+     "descricao": "Listas compartilhadas com a família.",
+     "link": ""
+    }
+   ],
+   "autorizado": true
+  },
+  {
+   "id": "aluno-015",
+   "nome": "Heitor Ferraz",
+   "escola_id": "esc-pimentas3",
+   "curso": "Técnico em Desenvolvimento de Sistemas",
+   "modulo": 3,
+   "turnos": [
+    "noite"
+   ],
+   "modalidades": [
+    "presencial"
+   ],
+   "habilidades": [
+    "Suporte técnico",
+    "Redes",
+    "Excel",
+    "Lógica de programação"
+   ],
+   "desempenho": {
+    "media_tecnico": 7.0,
+    "media_regular": 6.9,
+    "frequencia": 76,
+    "comprometimento": 2,
+    "responsabilidade": 3,
+    "disciplina": 3
+   },
+   "observacao": "Evoluiu muito neste semestre, principalmente em lógica.",
+   "projetos": [
+    {
+     "titulo": "Rede do grêmio estudantil",
+     "descricao": "Montagem e documentação de uma rede pequena.",
+     "link": ""
+    },
+    {
+     "titulo": "Inventário do laboratório",
+     "descricao": "Planilha com o estado de cada computador.",
+     "link": ""
+    }
+   ],
+   "autorizado": true
+  },
+  {
+   "id": "aluno-016",
+   "nome": "Pedro Freitas",
+   "escola_id": "esc-carmina",
+   "curso": "Técnico em Desenvolvimento de Sistemas",
+   "modulo": 2,
+   "turnos": [
+    "noite"
+   ],
+   "modalidades": [
+    "hibrido",
+    "remoto"
+   ],
+   "habilidades": [
+    "Excel",
+    "SQL",
+    "Python",
+    "Power BI"
+   ],
+   "desempenho": {
+    "media_tecnico": 9.3,
+    "media_regular": 8.5,
+    "frequencia": 100,
+    "comprometimento": 5,
+    "responsabilidade": 3,
+    "disciplina": 5
+   },
+   "observacao": "Pontual e organizado(a). Lidera bem trabalhos em grupo.",
+   "projetos": [
+    {
+     "titulo": "Painel de frequência da turma",
+     "descricao": "Gráficos de presença por mês, sem expor nomes.",
+     "link": ""
+    }
+   ],
+   "autorizado": true
+  },
+  {
+   "id": "aluno-017",
+   "nome": "Pietra Teles",
+   "escola_id": "esc-mhelena",
+   "curso": "Técnico em Desenvolvimento de Sistemas",
+   "modulo": 3,
+   "turnos": [
+    "manha"
+   ],
+   "modalidades": [
+    "hibrido",
+    "presencial"
+   ],
+   "habilidades": [
+    "Excel",
+    "SQL",
+    "Python",
+    "Git",
+    "Power BI",
+    "Scrum"
+   ],
+   "desempenho": {
+    "media_tecnico": 9.4,
+    "media_regular": 7.1,
+    "frequencia": 94,
+    "comprometimento": 4,
+    "responsabilidade": 5,
+    "disciplina": 4
+   },
+   "observacao": "Pontual e organizado(a). Lidera bem trabalhos em grupo.",
+   "projetos": [
+    {
+     "titulo": "Análise de vagas de estágio",
+     "descricao": "Planilha com as habilidades mais pedidas na cidade.",
+     "link": ""
+    },
+    {
+     "titulo": "Painel de frequência da turma",
+     "descricao": "Gráficos de presença por mês, sem expor nomes.",
+     "link": ""
+    }
+   ],
+   "autorizado": true
+  },
+  {
+   "id": "aluno-018",
+   "nome": "João Teles",
+   "escola_id": "esc-allyrio",
+   "curso": "Técnico em Desenvolvimento de Sistemas",
+   "modulo": 3,
+   "turnos": [
+    "manha"
+   ],
+   "modalidades": [
+    "hibrido",
+    "presencial",
+    "remoto"
+   ],
+   "habilidades": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "TypeScript",
+    "Figma",
+    "React",
+    "Git",
+    "Inteligência Artificial"
+   ],
+   "desempenho": {
+    "media_tecnico": 9.4,
+    "media_regular": 7.8,
+    "frequencia": 95,
+    "comprometimento": 4,
+    "responsabilidade": 5,
+    "disciplina": 5
+   },
+   "observacao": "Responsável com prazos; participa da monitoria do laboratório.",
+   "projetos": [
+    {
+     "titulo": "Portfólio pessoal",
+     "descricao": "Site com projetos, feito do zero com HTML e CSS.",
+     "link": ""
+    },
+    {
+     "titulo": "Site da feira de profissões",
+     "descricao": "Página responsiva com agenda e inscrições.",
+     "link": ""
+    }
+   ],
+   "autorizado": true
+  },
+  {
+   "id": "aluno-019",
+   "nome": "Lívia Queiroz",
+   "escola_id": "esc-etec",
+   "curso": "Técnico em Desenvolvimento de Sistemas",
+   "modulo": 3,
+   "turnos": [
+    "noite"
+   ],
+   "modalidades": [
+    "hibrido",
+    "presencial"
+   ],
+   "habilidades": [
+    "Suporte técnico",
+    "Redes",
+    "Excel",
+    "Lógica de programação"
+   ],
+   "desempenho": {
+    "media_tecnico": 9.7,
+    "media_regular": 9.5,
+    "frequencia": 93,
+    "comprometimento": 5,
+    "responsabilidade": 5,
+    "disciplina": 5
+   },
+   "observacao": "Responsável com prazos; participa da monitoria do laboratório.",
+   "projetos": [
+    {
+     "titulo": "Inventário do laboratório",
+     "descricao": "Planilha com o estado de cada computador.",
+     "link": ""
+    },
+    {
+     "titulo": "Rede do grêmio estudantil",
+     "descricao": "Montagem e documentação de uma rede pequena.",
+     "link": ""
+    }
+   ],
+   "autorizado": true
+  },
+  {
+   "id": "aluno-020",
+   "nome": "Gustavo Ribeiro",
+   "escola_id": "esc-pimentas3",
+   "curso": "Técnico em Desenvolvimento de Sistemas",
+   "modulo": 2,
+   "turnos": [
+    "manha",
+    "tarde"
+   ],
+   "modalidades": [
+    "hibrido",
+    "presencial"
+   ],
+   "habilidades": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "React",
+    "Figma"
+   ],
+   "desempenho": {
+    "media_tecnico": 9.2,
+    "media_regular": 8.6,
+    "frequencia": 93,
+    "comprometimento": 4,
+    "responsabilidade": 5,
+    "disciplina": 5
+   },
+   "observacao": "Responsável com prazos; participa da monitoria do laboratório.",
+   "projetos": [
+    {
+     "titulo": "Site da feira de profissões",
+     "descricao": "Página responsiva com agenda e inscrições.",
+     "link": ""
+    }
+   ],
+   "autorizado": true
+  },
+  {
+   "id": "aluno-021",
+   "nome": "Manuela Dias",
+   "escola_id": "esc-etec",
+   "curso": "Técnico em Desenvolvimento de Sistemas",
+   "modulo": 3,
+   "turnos": [
+    "manha"
+   ],
+   "modalidades": [
+    "hibrido",
+    "remoto"
+   ],
+   "habilidades": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "React",
+    "Git",
+    "Lógica de programação"
+   ],
+   "desempenho": {
+    "media_tecnico": 7.0,
+    "media_regular": 7.2,
+    "frequencia": 78,
+    "comprometimento": 3,
+    "responsabilidade": 3,
+    "disciplina": 3
+   },
+   "observacao": "Evoluiu muito neste semestre, principalmente em lógica.",
+   "projetos": [
+    {
+     "titulo": "Portfólio pessoal",
+     "descricao": "Site com projetos, feito do zero com HTML e CSS.",
+     "link": ""
+    },
+    {
+     "titulo": "Site da feira de profissões",
+     "descricao": "Página responsiva com agenda e inscrições.",
+     "link": ""
+    }
+   ],
+   "autorizado": false
+  },
+  {
+   "id": "aluno-022",
+   "nome": "Vitor Freitas",
+   "escola_id": "esc-carmina",
+   "curso": "Técnico em Desenvolvimento de Sistemas",
+   "modulo": 3,
+   "turnos": [
+    "tarde",
+    "noite"
+   ],
+   "modalidades": [
+    "hibrido",
+    "remoto"
+   ],
+   "habilidades": [
+    "Python",
+    "SQL",
+    "Git",
+    "Testes automatizados",
+    "FastAPI",
+    "PostgreSQL",
+    "Lógica de programação"
+   ],
+   "desempenho": {
+    "media_tecnico": 7.5,
+    "media_regular": 7.8,
+    "frequencia": 90,
+    "comprometimento": 2,
+    "responsabilidade": 3,
+    "disciplina": 3
+   },
+   "observacao": "",
+   "projetos": [
+    {
+     "titulo": "Controle de estoque da cantina",
+     "descricao": "API com relatório de itens mais vendidos.",
+     "link": ""
+    },
+    {
+     "titulo": "API de biblioteca escolar",
+     "descricao": "Empréstimos e devoluções com regras de prazo e testes.",
+     "link": ""
+    }
+   ],
+   "autorizado": true
+  },
+  {
+   "id": "aluno-023",
+   "nome": "Vitor Lacerda",
+   "escola_id": "esc-haroldo",
+   "curso": "Técnico em Desenvolvimento de Sistemas",
+   "modulo": 2,
+   "turnos": [
+    "tarde",
+    "noite"
+   ],
+   "modalidades": [
+    "hibrido",
+    "presencial",
+    "remoto"
+   ],
+   "habilidades": [
+    "Excel",
+    "SQL",
+    "Python",
+    "Git",
+    "Power BI"
+   ],
+   "desempenho": {
+    "media_tecnico": 6.4,
+    "media_regular": 6.1,
+    "frequencia": 85,
+    "comprometimento": 2,
+    "responsabilidade": 3,
+    "disciplina": 3
+   },
+   "observacao": "Curioso(a), sempre traz soluções além do pedido.",
+   "projetos": [
+    {
+     "titulo": "Análise de vagas de estágio",
+     "descricao": "Planilha com as habilidades mais pedidas na cidade.",
+     "link": ""
+    }
+   ],
+   "autorizado": true
+  },
+  {
+   "id": "aluno-024",
+   "nome": "Pedro Vasconcelos",
+   "escola_id": "esc-mhelena",
+   "curso": "Técnico em Desenvolvimento de Sistemas",
+   "modulo": 3,
+   "turnos": [
+    "tarde"
+   ],
+   "modalidades": [
+    "hibrido",
+    "remoto"
+   ],
+   "habilidades": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "Git",
+    "Figma",
+    "React"
+   ],
+   "desempenho": {
+    "media_tecnico": 6.7,
+    "media_regular": 8.6,
+    "frequencia": 84,
+    "comprometimento": 3,
+    "responsabilidade": 3,
+    "disciplina": 3
+   },
+   "observacao": "Evoluiu muito neste semestre, principalmente em lógica.",
+   "projetos": [
+    {
+     "titulo": "Portfólio pessoal",
+     "descricao": "Site com projetos, feito do zero com HTML e CSS.",
+     "link": ""
+    },
+    {
+     "titulo": "Site da feira de profissões",
+     "descricao": "Página responsiva com agenda e inscrições.",
+     "link": ""
+    }
+   ],
+   "autorizado": true
+  },
+  {
+   "id": "aluno-025",
+   "nome": "Júlia Vasconcelos",
+   "escola_id": "esc-plinio",
+   "curso": "Técnico em Desenvolvimento de Sistemas",
+   "modulo": 2,
+   "turnos": [
+    "manha",
+    "tarde"
+   ],
+   "modalidades": [
+    "hibrido",
+    "presencial",
+    "remoto"
+   ],
+   "habilidades": [
+    "Python",
+    "SQL",
+    "Git",
+    "API REST",
+    "Testes automatizados",
+    "PostgreSQL",
+    "Kanban"
+   ],
+   "desempenho": {
+    "media_tecnico": 6.2,
+    "media_regular": 5.5,
+    "frequencia": 81,
+    "comprometimento": 2,
+    "responsabilidade": 2,
+    "disciplina": 3
+   },
+   "observacao": "Curioso(a), sempre traz soluções além do pedido.",
+   "projetos": [
+    {
+     "titulo": "API de biblioteca escolar",
+     "descricao": "Empréstimos e devoluções com regras de prazo e testes.",
+     "link": ""
+    }
+   ],
+   "autorizado": true
+  },
+  {
+   "id": "aluno-026",
+   "nome": "Carla Ferraz",
+   "escola_id": "esc-etec",
+   "curso": "Técnico em Desenvolvimento de Sistemas",
+   "modulo": 3,
+   "turnos": [
+    "noite"
+   ],
+   "modalidades": [
+    "hibrido",
+    "presencial"
+   ],
+   "habilidades": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "React",
+    "Git",
+    "Figma",
+    "Inteligência Artificial"
+   ],
+   "desempenho": {
+    "media_tecnico": 10,
+    "media_regular": 8.8,
+    "frequencia": 95,
+    "comprometimento": 5,
+    "responsabilidade": 5,
+    "disciplina": 5
+   },
+   "observacao": "Evoluiu muito neste semestre, principalmente em lógica.",
+   "projetos": [
+    {
+     "titulo": "Portfólio pessoal",
+     "descricao": "Site com projetos, feito do zero com HTML e CSS.",
+     "link": ""
+    },
+    {
+     "titulo": "Site da feira de profissões",
+     "descricao": "Página responsiva com agenda e inscrições.",
+     "link": ""
+    }
+   ],
+   "autorizado": true
+  },
+  {
+   "id": "aluno-027",
+   "nome": "Valentina Gomes",
+   "escola_id": "esc-etec",
+   "curso": "Técnico em Desenvolvimento de Sistemas",
+   "modulo": 2,
+   "turnos": [
+    "noite"
+   ],
+   "modalidades": [
+    "presencial"
+   ],
+   "habilidades": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "TypeScript",
+    "Git",
+    "Inteligência Artificial"
+   ],
+   "desempenho": {
+    "media_tecnico": 9.6,
+    "media_regular": 7.9,
+    "frequencia": 91,
+    "comprometimento": 4,
+    "responsabilidade": 3,
+    "disciplina": 4
+   },
+   "observacao": "Curioso(a), sempre traz soluções além do pedido.",
+   "projetos": [
+    {
+     "titulo": "Site da feira de profissões",
+     "descricao": "Página responsiva com agenda e inscrições.",
+     "link": ""
+    }
+   ],
+   "autorizado": true
+  },
+  {
+   "id": "aluno-028",
+   "nome": "Rafael Vasconcelos",
+   "escola_id": "esc-mbombassei",
+   "curso": "Técnico em Desenvolvimento de Sistemas",
+   "modulo": 3,
+   "turnos": [
+    "noite"
+   ],
+   "modalidades": [
+    "hibrido",
+    "remoto"
+   ],
+   "habilidades": [
+    "Kotlin",
+    "Flutter",
+    "Git",
+    "API REST",
+    "Java",
+    "Figma",
+    "Kanban"
+   ],
+   "desempenho": {
+    "media_tecnico": 9.8,
+    "media_regular": 7.3,
+    "frequencia": 93,
+    "comprometimento": 4,
+    "responsabilidade": 3,
+    "disciplina": 5
+   },
+   "observacao": "Pontual e organizado(a). Lidera bem trabalhos em grupo.",
+   "projetos": [
+    {
+     "titulo": "App de horários de ônibus de Guarulhos",
+     "descricao": "Consulta linhas e avisa o próximo horário.",
+     "link": ""
+    },
+    {
+     "titulo": "App de lista de compras",
+     "descricao": "Listas compartilhadas com a família.",
+     "link": ""
+    }
+   ],
+   "autorizado": true
+  },
+  {
+   "id": "aluno-029",
+   "nome": "Pedro Gomes",
+   "escola_id": "esc-haroldo",
+   "curso": "Técnico em Desenvolvimento de Sistemas",
+   "modulo": 2,
+   "turnos": [
+    "tarde"
+   ],
+   "modalidades": [
+    "hibrido",
+    "presencial"
+   ],
+   "habilidades": [
+    "Python",
+    "SQL",
+    "Git",
+    "Java",
+    "Docker"
+   ],
+   "desempenho": {
+    "media_tecnico": 9.4,
+    "media_regular": 9.4,
+    "frequencia": 91,
+    "comprometimento": 4,
+    "responsabilidade": 4,
+    "disciplina": 4
+   },
+   "observacao": "",
+   "projetos": [
+    {
+     "titulo": "Controle de estoque da cantina",
+     "descricao": "API com relatório de itens mais vendidos.",
+     "link": ""
+    }
+   ],
+   "autorizado": true
+  },
+  {
+   "id": "aluno-030",
+   "nome": "Larissa Freitas",
+   "escola_id": "esc-pimentas3",
+   "curso": "Técnico em Desenvolvimento de Sistemas",
+   "modulo": 3,
+   "turnos": [
+    "tarde"
+   ],
+   "modalidades": [
+    "hibrido",
+    "remoto"
+   ],
+   "habilidades": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "Figma",
+    "Git",
+    "React",
+    "TypeScript",
+    "Scrum"
+   ],
+   "desempenho": {
+    "media_tecnico": 7.6,
+    "media_regular": 8.2,
+    "frequencia": 93,
+    "comprometimento": 4,
+    "responsabilidade": 4,
+    "disciplina": 5
+   },
+   "observacao": "Curioso(a), sempre traz soluções além do pedido.",
+   "projetos": [
+    {
+     "titulo": "Portfólio pessoal",
+     "descricao": "Site com projetos, feito do zero com HTML e CSS.",
+     "link": ""
+    },
+    {
+     "titulo": "Site da feira de profissões",
+     "descricao": "Página responsiva com agenda e inscrições.",
+     "link": ""
+    }
+   ],
+   "autorizado": true
+  },
+  {
+   "id": "aluno-031",
+   "nome": "Yasmin Almeida",
+   "escola_id": "esc-etec",
+   "curso": "Técnico em Desenvolvimento de Sistemas",
+   "modulo": 3,
+   "turnos": [
+    "tarde"
+   ],
+   "modalidades": [
+    "hibrido",
+    "presencial"
+   ],
+   "habilidades": [
+    "Kotlin",
+    "Flutter",
+    "Git",
+    "Figma",
+    "API REST",
+    "Lógica de programação"
+   ],
+   "desempenho": {
+    "media_tecnico": 9.9,
+    "media_regular": 9.5,
+    "frequencia": 97,
+    "comprometimento": 5,
+    "responsabilidade": 5,
+    "disciplina": 5
+   },
+   "observacao": "Curioso(a), sempre traz soluções além do pedido.",
+   "projetos": [
+    {
+     "titulo": "App de horários de ônibus de Guarulhos",
+     "descricao": "Consulta linhas e avisa o próximo horário.",
+     "link": ""
+    },
+    {
+     "titulo": "App de lista de compras",
+     "descricao": "Listas compartilhadas com a família.",
+     "link": ""
+    }
+   ],
+   "autorizado": true
+  },
+  {
+   "id": "aluno-032",
+   "nome": "Samuel Moura",
+   "escola_id": "esc-mbombassei",
+   "curso": "Técnico em Desenvolvimento de Sistemas",
+   "modulo": 3,
+   "turnos": [
+    "noite"
+   ],
+   "modalidades": [
+    "hibrido",
+    "remoto"
+   ],
+   "habilidades": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "Figma",
+    "TypeScript",
+    "Git"
+   ],
+   "desempenho": {
+    "media_tecnico": 7.3,
+    "media_regular": 5.6,
+    "frequencia": 81,
+    "comprometimento": 3,
+    "responsabilidade": 2,
+    "disciplina": 2
+   },
+   "observacao": "Pontual e organizado(a). Lidera bem trabalhos em grupo.",
+   "projetos": [
+    {
+     "titulo": "Site da feira de profissões",
+     "descricao": "Página responsiva com agenda e inscrições.",
+     "link": ""
+    },
+    {
+     "titulo": "Portfólio pessoal",
+     "descricao": "Site com projetos, feito do zero com HTML e CSS.",
+     "link": ""
+    }
+   ],
+   "autorizado": true
+  },
+  {
+   "id": "aluno-033",
+   "nome": "Sofia Moraes",
+   "escola_id": "esc-allyrio",
+   "curso": "Técnico em Desenvolvimento de Sistemas",
+   "modulo": 3,
+   "turnos": [
+    "manha",
+    "tarde"
+   ],
+   "modalidades": [
+    "hibrido",
+    "remoto"
+   ],
+   "habilidades": [
+    "Suporte técnico",
+    "Redes",
+    "Excel",
+    "Lógica de programação"
+   ],
+   "desempenho": {
+    "media_tecnico": 5.0,
+    "media_regular": 5.8,
+    "frequencia": 80,
+    "comprometimento": 2,
+    "responsabilidade": 3,
+    "disciplina": 3
+   },
+   "observacao": "Precisa melhorar a frequência, mas tem bom potencial técnico.",
+   "projetos": [
+    {
+     "titulo": "Inventário do laboratório",
+     "descricao": "Planilha com o estado de cada computador.",
+     "link": ""
+    },
+    {
+     "titulo": "Rede do grêmio estudantil",
+     "descricao": "Montagem e documentação de uma rede pequena.",
+     "link": ""
+    }
+   ],
+   "autorizado": true
+  },
+  {
+   "id": "aluno-034",
+   "nome": "Sofia Moraes",
+   "escola_id": "esc-hernani",
+   "curso": "Técnico em Desenvolvimento de Sistemas",
+   "modulo": 3,
+   "turnos": [
+    "manha"
+   ],
+   "modalidades": [
+    "presencial"
+   ],
+   "habilidades": [
+    "Kotlin",
+    "Flutter",
+    "Git",
+    "Java",
+    "Figma",
+    "API REST",
+    "Scrum"
+   ],
+   "desempenho": {
+    "media_tecnico": 9.4,
+    "media_regular": 8.7,
+    "frequencia": 86,
+    "comprometimento": 4,
+    "responsabilidade": 3,
+    "disciplina": 3
+   },
+   "observacao": "Curioso(a), sempre traz soluções além do pedido.",
+   "projetos": [
+    {
+     "titulo": "App de lista de compras",
+     "descricao": "Listas compartilhadas com a família.",
+     "link": ""
+    },
+    {
+     "titulo": "App de horários de ônibus de Guarulhos",
+     "descricao": "Consulta linhas e avisa o próximo horário.",
+     "link": ""
+    }
+   ],
+   "autorizado": true
+  },
+  {
+   "id": "aluno-035",
+   "nome": "Bruno Barbosa",
+   "escola_id": "esc-pimentas3",
+   "curso": "Técnico em Desenvolvimento de Sistemas",
+   "modulo": 3,
+   "turnos": [
+    "manha"
+   ],
+   "modalidades": [
+    "presencial"
+   ],
+   "habilidades": [
+    "Python",
+    "SQL",
+    "Git",
+    "FastAPI",
+    "PostgreSQL"
+   ],
+   "desempenho": {
+    "media_tecnico": 9.0,
+    "media_regular": 8.0,
+    "frequencia": 98,
+    "comprometimento": 5,
+    "responsabilidade": 4,
+    "disciplina": 5
+   },
+   "observacao": "Curioso(a), sempre traz soluções além do pedido.",
+   "projetos": [
+    {
+     "titulo": "API de biblioteca escolar",
+     "descricao": "Empréstimos e devoluções com regras de prazo e testes.",
+     "link": ""
+    },
+    {
+     "titulo": "Controle de estoque da cantina",
+     "descricao": "API com relatório de itens mais vendidos.",
+     "link": ""
+    }
+   ],
+   "autorizado": true
+  },
+  {
+   "id": "aluno-036",
+   "nome": "Samuel Gomes",
+   "escola_id": "esc-maestro",
+   "curso": "Técnico em Desenvolvimento de Sistemas",
+   "modulo": 1,
+   "turnos": [
+    "manha"
+   ],
+   "modalidades": [
+    "hibrido",
+    "remoto"
+   ],
+   "habilidades": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "React"
+   ],
+   "desempenho": {
+    "media_tecnico": 8.1,
+    "media_regular": 8.0,
+    "frequencia": 93,
+    "comprometimento": 4,
+    "responsabilidade": 5,
+    "disciplina": 4
+   },
+   "observacao": "Pontual e organizado(a). Lidera bem trabalhos em grupo.",
+   "projetos": [
+    {
+     "titulo": "Portfólio pessoal",
+     "descricao": "Site com projetos, feito do zero com HTML e CSS.",
+     "link": ""
+    }
+   ],
+   "autorizado": true
+  },
+  {
+   "id": "aluno-037",
+   "nome": "Nicole Pacheco",
+   "escola_id": "esc-plinio",
+   "curso": "Técnico em Desenvolvimento de Sistemas",
+   "modulo": 3,
+   "turnos": [
+    "manha"
+   ],
+   "modalidades": [
+    "hibrido",
+    "presencial"
+   ],
+   "habilidades": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "Git",
+    "React",
+    "TypeScript",
+    "Figma"
+   ],
+   "desempenho": {
+    "media_tecnico": 8.1,
+    "media_regular": 6.4,
+    "frequencia": 88,
+    "comprometimento": 3,
+    "responsabilidade": 4,
+    "disciplina": 3
+   },
+   "observacao": "Muito comprometido(a) com as entregas; ajuda os colegas nos projetos.",
+   "projetos": [
+    {
+     "titulo": "Portfólio pessoal",
+     "descricao": "Site com projetos, feito do zero com HTML e CSS.",
+     "link": ""
+    },
+    {
+     "titulo": "Site da feira de profissões",
+     "descricao": "Página responsiva com agenda e inscrições.",
+     "link": ""
+    }
+   ],
+   "autorizado": true
+  },
+  {
+   "id": "aluno-038",
+   "nome": "Alice Dias",
+   "escola_id": "esc-maestro",
+   "curso": "Técnico em Desenvolvimento de Sistemas",
+   "modulo": 2,
+   "turnos": [
+    "tarde",
+    "noite"
+   ],
+   "modalidades": [
+    "presencial"
+   ],
+   "habilidades": [
+    "Python",
+    "SQL",
+    "Git",
+    "FastAPI"
+   ],
+   "desempenho": {
+    "media_tecnico": 8.5,
+    "media_regular": 6.0,
+    "frequencia": 75,
+    "comprometimento": 4,
+    "responsabilidade": 3,
+    "disciplina": 3
+   },
+   "observacao": "",
+   "projetos": [
+    {
+     "titulo": "API de biblioteca escolar",
+     "descricao": "Empréstimos e devoluções com regras de prazo e testes.",
+     "link": ""
+    }
+   ],
+   "autorizado": true
+  },
+  {
+   "id": "aluno-039",
+   "nome": "Sofia Gomes",
+   "escola_id": "esc-mbombassei",
+   "curso": "Técnico em Desenvolvimento de Sistemas",
+   "modulo": 1,
+   "turnos": [
+    "manha"
+   ],
+   "modalidades": [
+    "hibrido",
+    "presencial",
+    "remoto"
+   ],
+   "habilidades": [
+    "Python",
+    "SQL",
+    "Git"
+   ],
+   "desempenho": {
+    "media_tecnico": 9.6,
+    "media_regular": 8.5,
+    "frequencia": 95,
+    "comprometimento": 4,
+    "responsabilidade": 3,
+    "disciplina": 4
+   },
+   "observacao": "Precisa melhorar a frequência, mas tem bom potencial técnico.",
+   "projetos": [
+    {
+     "titulo": "API de biblioteca escolar",
+     "descricao": "Empréstimos e devoluções com regras de prazo e testes.",
+     "link": ""
+    }
+   ],
+   "autorizado": true
+  },
+  {
+   "id": "aluno-040",
+   "nome": "Enzo Moura",
+   "escola_id": "esc-etec",
+   "curso": "Técnico em Desenvolvimento de Sistemas",
+   "modulo": 3,
+   "turnos": [
+    "manha"
+   ],
+   "modalidades": [
+    "hibrido",
+    "remoto"
+   ],
+   "habilidades": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "TypeScript",
+    "Git",
+    "Figma",
+    "Inteligência Artificial"
+   ],
+   "desempenho": {
+    "media_tecnico": 8.7,
+    "media_regular": 8.8,
+    "frequencia": 87,
+    "comprometimento": 4,
+    "responsabilidade": 4,
+    "disciplina": 5
+   },
+   "observacao": "Responsável com prazos; participa da monitoria do laboratório.",
+   "projetos": [
+    {
+     "titulo": "Site da feira de profissões",
+     "descricao": "Página responsiva com agenda e inscrições.",
+     "link": ""
+    },
+    {
+     "titulo": "Portfólio pessoal",
+     "descricao": "Site com projetos, feito do zero com HTML e CSS.",
+     "link": ""
+    }
+   ],
+   "autorizado": false
+  },
+  {
+   "id": "aluno-041",
+   "nome": "João Freitas",
+   "escola_id": "esc-allyrio",
+   "curso": "Técnico em Desenvolvimento de Sistemas",
+   "modulo": 2,
+   "turnos": [
+    "manha",
+    "tarde"
+   ],
+   "modalidades": [
+    "hibrido",
+    "presencial"
+   ],
+   "habilidades": [
+    "Excel",
+    "SQL",
+    "Python",
+    "Power BI",
+    "Git"
+   ],
+   "desempenho": {
+    "media_tecnico": 7.9,
+    "media_regular": 7.7,
+    "frequencia": 80,
+    "comprometimento": 5,
+    "responsabilidade": 3,
+    "disciplina": 4
+   },
+   "observacao": "Precisa melhorar a frequência, mas tem bom potencial técnico.",
+   "projetos": [
+    {
+     "titulo": "Análise de vagas de estágio",
+     "descricao": "Planilha com as habilidades mais pedidas na cidade.",
+     "link": ""
+    }
+   ],
+   "autorizado": true
+  },
+  {
+   "id": "aluno-042",
+   "nome": "Valentina Rocha",
+   "escola_id": "esc-allyrio",
+   "curso": "Técnico em Desenvolvimento de Sistemas",
+   "modulo": 3,
+   "turnos": [
+    "noite"
+   ],
+   "modalidades": [
+    "hibrido",
+    "presencial"
+   ],
+   "habilidades": [
+    "Excel",
+    "SQL",
+    "Python",
+    "Git",
+    "Power BI",
+    "Kanban"
+   ],
+   "desempenho": {
+    "media_tecnico": 5.7,
+    "media_regular": 6.7,
+    "frequencia": 80,
+    "comprometimento": 4,
+    "responsabilidade": 3,
+    "disciplina": 2
+   },
+   "observacao": "Pontual e organizado(a). Lidera bem trabalhos em grupo.",
+   "projetos": [
+    {
+     "titulo": "Análise de vagas de estágio",
+     "descricao": "Planilha com as habilidades mais pedidas na cidade.",
+     "link": ""
+    },
+    {
+     "titulo": "Painel de frequência da turma",
+     "descricao": "Gráficos de presença por mês, sem expor nomes.",
+     "link": ""
+    }
+   ],
+   "autorizado": true
+  },
+  {
+   "id": "aluno-043",
+   "nome": "João Ribeiro",
+   "escola_id": "esc-plinio",
+   "curso": "Técnico em Desenvolvimento de Sistemas",
+   "modulo": 1,
+   "turnos": [
+    "manha",
+    "tarde"
+   ],
+   "modalidades": [
+    "presencial"
+   ],
+   "habilidades": [
+    "Excel",
+    "SQL",
+    "Python",
+    "Lógica de programação"
+   ],
+   "desempenho": {
+    "media_tecnico": 7.6,
+    "media_regular": 7.9,
+    "frequencia": 86,
+    "comprometimento": 3,
+    "responsabilidade": 3,
+    "disciplina": 3
+   },
+   "observacao": "",
+   "projetos": [
+    {
+     "titulo": "Análise de vagas de estágio",
+     "descricao": "Planilha com as habilidades mais pedidas na cidade.",
+     "link": ""
+    }
+   ],
+   "autorizado": true
+  },
+  {
+   "id": "aluno-044",
+   "nome": "Valentina Lacerda",
+   "escola_id": "esc-etec",
+   "curso": "Técnico em Desenvolvimento de Sistemas",
+   "modulo": 2,
+   "turnos": [
+    "tarde",
+    "noite"
+   ],
+   "modalidades": [
+    "hibrido",
+    "remoto"
+   ],
+   "habilidades": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "TypeScript",
+    "Figma"
+   ],
+   "desempenho": {
+    "media_tecnico": 8.5,
+    "media_regular": 6.6,
+    "frequencia": 91,
+    "comprometimento": 4,
+    "responsabilidade": 4,
+    "disciplina": 5
+   },
+   "observacao": "Evoluiu muito neste semestre, principalmente em lógica.",
+   "projetos": [
+    {
+     "titulo": "Portfólio pessoal",
+     "descricao": "Site com projetos, feito do zero com HTML e CSS.",
+     "link": ""
+    }
+   ],
+   "autorizado": true
+  },
+  {
+   "id": "aluno-045",
+   "nome": "Pedro Queiroz",
+   "escola_id": "esc-haroldo",
+   "curso": "Técnico em Desenvolvimento de Sistemas",
+   "modulo": 1,
+   "turnos": [
+    "tarde"
+   ],
+   "modalidades": [
+    "hibrido",
+    "presencial",
+    "remoto"
+   ],
+   "habilidades": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "Lógica de programação"
+   ],
+   "desempenho": {
+    "media_tecnico": 8.7,
+    "media_regular": 8.9,
+    "frequencia": 95,
+    "comprometimento": 5,
+    "responsabilidade": 4,
+    "disciplina": 5
+   },
+   "observacao": "Evoluiu muito neste semestre, principalmente em lógica.",
+   "projetos": [
+    {
+     "titulo": "Site da feira de profissões",
+     "descricao": "Página responsiva com agenda e inscrições.",
+     "link": ""
+    }
+   ],
+   "autorizado": true
+  },
+  {
+   "id": "aluno-046",
+   "nome": "Valentina Barbosa",
+   "escola_id": "esc-carmina",
+   "curso": "Técnico em Desenvolvimento de Sistemas",
+   "modulo": 3,
+   "turnos": [
+    "noite"
+   ],
+   "modalidades": [
+    "hibrido",
+    "presencial",
+    "remoto"
+   ],
+   "habilidades": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "React",
+    "TypeScript",
+    "Figma",
+    "Git"
+   ],
+   "desempenho": {
+    "media_tecnico": 8.3,
+    "media_regular": 7.5,
+    "frequencia": 86,
+    "comprometimento": 3,
+    "responsabilidade": 5,
+    "disciplina": 3
+   },
+   "observacao": "Precisa melhorar a frequência, mas tem bom potencial técnico.",
+   "projetos": [
+    {
+     "titulo": "Portfólio pessoal",
+     "descricao": "Site com projetos, feito do zero com HTML e CSS.",
+     "link": ""
+    },
+    {
+     "titulo": "Site da feira de profissões",
+     "descricao": "Página responsiva com agenda e inscrições.",
+     "link": ""
+    }
+   ],
+   "autorizado": true
+  },
+  {
+   "id": "aluno-047",
+   "nome": "Enzo Rocha",
+   "escola_id": "esc-allyrio",
+   "curso": "Técnico em Desenvolvimento de Sistemas",
+   "modulo": 2,
+   "turnos": [
+    "manha",
+    "tarde"
+   ],
+   "modalidades": [
+    "hibrido",
+    "presencial"
+   ],
+   "habilidades": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "TypeScript"
+   ],
+   "desempenho": {
+    "media_tecnico": 7.2,
+    "media_regular": 8.9,
+    "frequencia": 89,
+    "comprometimento": 4,
+    "responsabilidade": 4,
+    "disciplina": 4
+   },
+   "observacao": "Precisa melhorar a frequência, mas tem bom potencial técnico.",
+   "projetos": [
+    {
+     "titulo": "Portfólio pessoal",
+     "descricao": "Site com projetos, feito do zero com HTML e CSS.",
+     "link": ""
+    }
+   ],
+   "autorizado": true
+  },
+  {
+   "id": "aluno-048",
+   "nome": "Heitor Gomes",
+   "escola_id": "esc-carmina",
+   "curso": "Técnico em Desenvolvimento de Sistemas",
+   "modulo": 2,
+   "turnos": [
+    "tarde",
+    "noite"
+   ],
+   "modalidades": [
+    "presencial"
+   ],
+   "habilidades": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "Git",
+    "Figma",
+    "Scrum"
+   ],
+   "desempenho": {
+    "media_tecnico": 7.3,
+    "media_regular": 8.2,
+    "frequencia": 88,
+    "comprometimento": 3,
+    "responsabilidade": 4,
+    "disciplina": 4
+   },
+   "observacao": "Muito comprometido(a) com as entregas; ajuda os colegas nos projetos.",
+   "projetos": [
+    {
+     "titulo": "Site da feira de profissões",
+     "descricao": "Página responsiva com agenda e inscrições.",
+     "link": ""
+    }
+   ],
+   "autorizado": true
+  },
+  {
+   "id": "aluno-049",
+   "nome": "Matheus Moura",
+   "escola_id": "esc-haroldo",
+   "curso": "Técnico em Desenvolvimento de Sistemas",
+   "modulo": 3,
+   "turnos": [
+    "tarde",
+    "noite"
+   ],
+   "modalidades": [
+    "hibrido",
+    "presencial",
+    "remoto"
+   ],
+   "habilidades": [
+    "Excel",
+    "SQL",
+    "Python",
+    "Git",
+    "Power BI"
+   ],
+   "desempenho": {
+    "media_tecnico": 8.6,
+    "media_regular": 8.5,
+    "frequencia": 92,
+    "comprometimento": 4,
+    "responsabilidade": 4,
+    "disciplina": 4
+   },
+   "observacao": "Precisa melhorar a frequência, mas tem bom potencial técnico.",
+   "projetos": [
+    {
+     "titulo": "Análise de vagas de estágio",
+     "descricao": "Planilha com as habilidades mais pedidas na cidade.",
+     "link": ""
+    },
+    {
+     "titulo": "Painel de frequência da turma",
+     "descricao": "Gráficos de presença por mês, sem expor nomes.",
+     "link": ""
+    }
+   ],
+   "autorizado": false
+  },
+  {
+   "id": "aluno-050",
+   "nome": "Lucas Dias",
+   "escola_id": "esc-hernani",
+   "curso": "Técnico em Desenvolvimento de Sistemas",
+   "modulo": 1,
+   "turnos": [
+    "manha"
+   ],
+   "modalidades": [
+    "hibrido",
+    "remoto"
+   ],
+   "habilidades": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "TypeScript",
+    "Inteligência Artificial"
+   ],
+   "desempenho": {
+    "media_tecnico": 6.5,
+    "media_regular": 6.2,
+    "frequencia": 78,
+    "comprometimento": 3,
+    "responsabilidade": 4,
+    "disciplina": 4
+   },
+   "observacao": "Muito comprometido(a) com as entregas; ajuda os colegas nos projetos.",
+   "projetos": [
+    {
+     "titulo": "Site da feira de profissões",
+     "descricao": "Página responsiva com agenda e inscrições.",
+     "link": ""
+    }
+   ],
+   "autorizado": true
+  },
+  {
+   "id": "aluno-051",
+   "nome": "Eduarda Ribeiro",
+   "escola_id": "esc-carmina",
+   "curso": "Técnico em Desenvolvimento de Sistemas",
+   "modulo": 3,
+   "turnos": [
+    "manha"
+   ],
+   "modalidades": [
+    "hibrido",
+    "presencial",
+    "remoto"
+   ],
+   "habilidades": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "React",
+    "TypeScript"
+   ],
+   "desempenho": {
+    "media_tecnico": 8.0,
+    "media_regular": 6.0,
+    "frequencia": 81,
+    "comprometimento": 4,
+    "responsabilidade": 3,
+    "disciplina": 3
+   },
+   "observacao": "Curioso(a), sempre traz soluções além do pedido.",
+   "projetos": [
+    {
+     "titulo": "Portfólio pessoal",
+     "descricao": "Site com projetos, feito do zero com HTML e CSS.",
+     "link": ""
+    },
+    {
+     "titulo": "Site da feira de profissões",
+     "descricao": "Página responsiva com agenda e inscrições.",
+     "link": ""
+    }
+   ],
+   "autorizado": true
+  },
+  {
+   "id": "aluno-052",
+   "nome": "Rafael Moraes",
+   "escola_id": "esc-pimentas3",
+   "curso": "Técnico em Desenvolvimento de Sistemas",
+   "modulo": 3,
+   "turnos": [
+    "manha"
+   ],
+   "modalidades": [
+    "hibrido",
+    "presencial"
+   ],
+   "habilidades": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "Figma",
+    "Git",
+    "React",
+    "TypeScript",
+    "Lógica de programação"
+   ],
+   "desempenho": {
+    "media_tecnico": 6.5,
+    "media_regular": 6.9,
+    "frequencia": 75,
+    "comprometimento": 1,
+    "responsabilidade": 3,
+    "disciplina": 2
+   },
+   "observacao": "Evoluiu muito neste semestre, principalmente em lógica.",
+   "projetos": [
+    {
+     "titulo": "Portfólio pessoal",
+     "descricao": "Site com projetos, feito do zero com HTML e CSS.",
+     "link": ""
+    },
+    {
+     "titulo": "Site da feira de profissões",
+     "descricao": "Página responsiva com agenda e inscrições.",
+     "link": ""
+    }
+   ],
+   "autorizado": true
+  },
+  {
+   "id": "aluno-053",
+   "nome": "Lucas Almeida",
+   "escola_id": "esc-hernani",
+   "curso": "Técnico em Desenvolvimento de Sistemas",
+   "modulo": 2,
+   "turnos": [
+    "manha",
+    "tarde"
+   ],
+   "modalidades": [
+    "hibrido",
+    "remoto"
+   ],
+   "habilidades": [
+    "Excel",
+    "SQL",
+    "Python",
+    "Git",
+    "Power BI"
+   ],
+   "desempenho": {
+    "media_tecnico": 9.0,
+    "media_regular": 7.3,
+    "frequencia": 96,
+    "comprometimento": 4,
+    "responsabilidade": 4,
+    "disciplina": 4
+   },
+   "observacao": "Responsável com prazos; participa da monitoria do laboratório.",
+   "projetos": [
+    {
+     "titulo": "Análise de vagas de estágio",
+     "descricao": "Planilha com as habilidades mais pedidas na cidade.",
+     "link": ""
+    }
+   ],
+   "autorizado": true
+  },
+  {
+   "id": "aluno-054",
+   "nome": "Ana Gomes",
+   "escola_id": "esc-mhelena",
+   "curso": "Técnico em Desenvolvimento de Sistemas",
+   "modulo": 2,
+   "turnos": [
+    "tarde"
+   ],
+   "modalidades": [
+    "presencial"
+   ],
+   "habilidades": [
+    "Python",
+    "SQL",
+    "Git",
+    "Testes automatizados",
+    "Docker",
+    "Lógica de programação"
+   ],
+   "desempenho": {
+    "media_tecnico": 6.9,
+    "media_regular": 7.2,
+    "frequencia": 88,
+    "comprometimento": 2,
+    "responsabilidade": 2,
+    "disciplina": 2
+   },
+   "observacao": "Precisa melhorar a frequência, mas tem bom potencial técnico.",
+   "projetos": [
+    {
+     "titulo": "API de biblioteca escolar",
+     "descricao": "Empréstimos e devoluções com regras de prazo e testes.",
+     "link": ""
+    }
+   ],
+   "autorizado": true
+  },
+  {
+   "id": "aluno-055",
+   "nome": "Eduarda Pacheco",
+   "escola_id": "esc-etec",
+   "curso": "Técnico em Desenvolvimento de Sistemas",
+   "modulo": 1,
+   "turnos": [
+    "tarde",
+    "noite"
+   ],
+   "modalidades": [
+    "presencial"
+   ],
+   "habilidades": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "Git",
+    "TypeScript"
+   ],
+   "desempenho": {
+    "media_tecnico": 7.4,
+    "media_regular": 6.3,
+    "frequencia": 87,
+    "comprometimento": 3,
+    "responsabilidade": 2,
+    "disciplina": 4
+   },
+   "observacao": "Precisa melhorar a frequência, mas tem bom potencial técnico.",
+   "projetos": [
+    {
+     "titulo": "Portfólio pessoal",
+     "descricao": "Site com projetos, feito do zero com HTML e CSS.",
+     "link": ""
+    }
+   ],
+   "autorizado": true
+  },
+  {
+   "id": "aluno-056",
+   "nome": "Eduarda Siqueira",
+   "escola_id": "esc-etec",
+   "curso": "Técnico em Desenvolvimento de Sistemas",
+   "modulo": 2,
+   "turnos": [
+    "noite"
+   ],
+   "modalidades": [
+    "hibrido",
+    "remoto"
+   ],
+   "habilidades": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "React",
+    "Figma",
+    "TypeScript"
+   ],
+   "desempenho": {
+    "media_tecnico": 8.2,
+    "media_regular": 9.2,
+    "frequencia": 95,
+    "comprometimento": 4,
+    "responsabilidade": 5,
+    "disciplina": 4
+   },
+   "observacao": "Curioso(a), sempre traz soluções além do pedido.",
+   "projetos": [
+    {
+     "titulo": "Site da feira de profissões",
+     "descricao": "Página responsiva com agenda e inscrições.",
+     "link": ""
+    }
+   ],
+   "autorizado": true
+  },
+  {
+   "id": "aluno-057",
+   "nome": "Bruno Dias",
+   "escola_id": "esc-haroldo",
+   "curso": "Técnico em Desenvolvimento de Sistemas",
+   "modulo": 2,
+   "turnos": [
+    "tarde"
+   ],
+   "modalidades": [
+    "hibrido",
+    "remoto"
+   ],
+   "habilidades": [
+    "Kotlin",
+    "Flutter",
+    "Git",
+    "Java",
+    "Lógica de programação"
+   ],
+   "desempenho": {
+    "media_tecnico": 6.5,
+    "media_regular": 8.7,
+    "frequencia": 86,
+    "comprometimento": 3,
+    "responsabilidade": 3,
+    "disciplina": 3
+   },
+   "observacao": "Precisa melhorar a frequência, mas tem bom potencial técnico.",
+   "projetos": [
+    {
+     "titulo": "App de horários de ônibus de Guarulhos",
+     "descricao": "Consulta linhas e avisa o próximo horário.",
+     "link": ""
+    }
+   ],
+   "autorizado": true
+  },
+  {
+   "id": "aluno-058",
+   "nome": "Isabela Ferraz",
+   "escola_id": "esc-pimentas3",
+   "curso": "Técnico em Desenvolvimento de Sistemas",
+   "modulo": 3,
+   "turnos": [
+    "tarde"
+   ],
+   "modalidades": [
+    "hibrido",
+    "presencial"
+   ],
+   "habilidades": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "Git",
+    "Figma",
+    "Lógica de programação"
+   ],
+   "desempenho": {
+    "media_tecnico": 7.8,
+    "media_regular": 7.2,
+    "frequencia": 85,
+    "comprometimento": 3,
+    "responsabilidade": 4,
+    "disciplina": 5
+   },
+   "observacao": "Evoluiu muito neste semestre, principalmente em lógica.",
+   "projetos": [
+    {
+     "titulo": "Portfólio pessoal",
+     "descricao": "Site com projetos, feito do zero com HTML e CSS.",
+     "link": ""
+    },
+    {
+     "titulo": "Site da feira de profissões",
+     "descricao": "Página responsiva com agenda e inscrições.",
+     "link": ""
+    }
+   ],
+   "autorizado": true
+  },
+  {
+   "id": "aluno-059",
+   "nome": "Gustavo Campos",
+   "escola_id": "esc-mhelena",
+   "curso": "Técnico em Desenvolvimento de Sistemas",
+   "modulo": 2,
+   "turnos": [
+    "manha"
+   ],
+   "modalidades": [
+    "hibrido",
+    "presencial",
+    "remoto"
+   ],
+   "habilidades": [
+    "Kotlin",
+    "Flutter",
+    "Git",
+    "Figma",
+    "Java",
+    "API REST"
+   ],
+   "desempenho": {
+    "media_tecnico": 5.5,
+    "media_regular": 6.9,
+    "frequencia": 87,
+    "comprometimento": 2,
+    "responsabilidade": 3,
+    "disciplina": 3
+   },
+   "observacao": "Responsável com prazos; participa da monitoria do laboratório.",
+   "projetos": [
+    {
+     "titulo": "App de lista de compras",
+     "descricao": "Listas compartilhadas com a família.",
+     "link": ""
+    }
+   ],
+   "autorizado": false
+  },
+  {
+   "id": "aluno-060",
+   "nome": "Felipe Gomes",
+   "escola_id": "esc-pimentas3",
+   "curso": "Técnico em Desenvolvimento de Sistemas",
+   "modulo": 1,
+   "turnos": [
+    "tarde"
+   ],
+   "modalidades": [
+    "presencial"
+   ],
+   "habilidades": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "Inteligência Artificial"
+   ],
+   "desempenho": {
+    "media_tecnico": 6.2,
+    "media_regular": 6.3,
+    "frequencia": 79,
+    "comprometimento": 2,
+    "responsabilidade": 2,
+    "disciplina": 2
+   },
+   "observacao": "Curioso(a), sempre traz soluções além do pedido.",
+   "projetos": [
+    {
+     "titulo": "Portfólio pessoal",
+     "descricao": "Site com projetos, feito do zero com HTML e CSS.",
+     "link": ""
+    }
+   ],
+   "autorizado": true
+  },
+  {
+   "id": "aluno-061",
+   "nome": "Yasmin Prado",
+   "escola_id": "esc-hernani",
+   "curso": "Técnico em Desenvolvimento de Sistemas",
+   "modulo": 3,
+   "turnos": [
+    "tarde"
+   ],
+   "modalidades": [
+    "hibrido",
+    "presencial",
+    "remoto"
+   ],
+   "habilidades": [
+    "Python",
+    "SQL",
+    "Git",
+    "Docker",
+    "Java",
+    "PostgreSQL",
+    "API REST"
+   ],
+   "desempenho": {
+    "media_tecnico": 7.0,
+    "media_regular": 7.7,
+    "frequencia": 82,
+    "comprometimento": 4,
+    "responsabilidade": 3,
+    "disciplina": 3
+   },
+   "observacao": "",
+   "projetos": [
+    {
+     "titulo": "API de biblioteca escolar",
+     "descricao": "Empréstimos e devoluções com regras de prazo e testes.",
+     "link": ""
+    },
+    {
+     "titulo": "Controle de estoque da cantina",
+     "descricao": "API com relatório de itens mais vendidos.",
+     "link": ""
+    }
+   ],
+   "autorizado": true
+  },
+  {
+   "id": "aluno-062",
+   "nome": "Gustavo Queiroz",
+   "escola_id": "esc-hernani",
+   "curso": "Técnico em Desenvolvimento de Sistemas",
+   "modulo": 1,
+   "turnos": [
+    "manha"
+   ],
+   "modalidades": [
+    "hibrido",
+    "presencial",
+    "remoto"
+   ],
+   "habilidades": [
+    "Excel",
+    "SQL",
+    "Python",
+    "Power BI"
+   ],
+   "desempenho": {
+    "media_tecnico": 9.4,
+    "media_regular": 9.8,
+    "frequencia": 97,
+    "comprometimento": 5,
+    "responsabilidade": 5,
+    "disciplina": 5
+   },
+   "observacao": "Responsável com prazos; participa da monitoria do laboratório.",
+   "projetos": [
+    {
+     "titulo": "Painel de frequência da turma",
+     "descricao": "Gráficos de presença por mês, sem expor nomes.",
+     "link": ""
+    }
+   ],
+   "autorizado": true
+  },
+  {
+   "id": "aluno-063",
+   "nome": "Isabela Gomes",
+   "escola_id": "esc-haroldo",
+   "curso": "Técnico em Desenvolvimento de Sistemas",
+   "modulo": 2,
+   "turnos": [
+    "noite"
+   ],
+   "modalidades": [
+    "hibrido",
+    "presencial",
+    "remoto"
+   ],
+   "habilidades": [
+    "Kotlin",
+    "Flutter",
+    "Git",
+    "Java"
+   ],
+   "desempenho": {
+    "media_tecnico": 6.8,
+    "media_regular": 6.0,
+    "frequencia": 83,
+    "comprometimento": 2,
+    "responsabilidade": 3,
+    "disciplina": 3
+   },
+   "observacao": "",
+   "projetos": [
+    {
+     "titulo": "App de lista de compras",
+     "descricao": "Listas compartilhadas com a família.",
+     "link": ""
+    }
+   ],
+   "autorizado": true
+  },
+  {
+   "id": "aluno-064",
+   "nome": "Pietra Nogueira",
+   "escola_id": "esc-hernani",
+   "curso": "Técnico em Desenvolvimento de Sistemas",
+   "modulo": 3,
+   "turnos": [
+    "noite"
+   ],
+   "modalidades": [
+    "presencial"
+   ],
+   "habilidades": [
+    "Excel",
+    "SQL",
+    "Python",
+    "Git",
+    "Power BI"
+   ],
+   "desempenho": {
+    "media_tecnico": 9.1,
+    "media_regular": 8.5,
+    "frequencia": 92,
+    "comprometimento": 5,
+    "responsabilidade": 5,
+    "disciplina": 3
+   },
+   "observacao": "Precisa melhorar a frequência, mas tem bom potencial técnico.",
+   "projetos": [
+    {
+     "titulo": "Análise de vagas de estágio",
+     "descricao": "Planilha com as habilidades mais pedidas na cidade.",
+     "link": ""
+    },
+    {
+     "titulo": "Painel de frequência da turma",
+     "descricao": "Gráficos de presença por mês, sem expor nomes.",
+     "link": ""
+    }
+   ],
+   "autorizado": true
+  },
+  {
+   "id": "aluno-065",
+   "nome": "Yasmin Cardoso",
+   "escola_id": "esc-etec",
+   "curso": "Técnico em Desenvolvimento de Sistemas",
+   "modulo": 2,
+   "turnos": [
+    "tarde",
+    "noite"
+   ],
+   "modalidades": [
+    "hibrido",
+    "remoto"
+   ],
+   "habilidades": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "Git",
+    "Figma",
+    "TypeScript",
+    "Inteligência Artificial"
+   ],
+   "desempenho": {
+    "media_tecnico": 8.5,
+    "media_regular": 8.7,
+    "frequencia": 92,
+    "comprometimento": 4,
+    "responsabilidade": 5,
+    "disciplina": 5
+   },
+   "observacao": "Pontual e organizado(a). Lidera bem trabalhos em grupo.",
+   "projetos": [
+    {
+     "titulo": "Portfólio pessoal",
+     "descricao": "Site com projetos, feito do zero com HTML e CSS.",
+     "link": ""
+    }
+   ],
+   "autorizado": true
+  },
+  {
+   "id": "aluno-066",
+   "nome": "Kauã Pacheco",
+   "escola_id": "esc-maestro",
+   "curso": "Técnico em Desenvolvimento de Sistemas",
+   "modulo": 2,
+   "turnos": [
+    "manha",
+    "tarde"
+   ],
+   "modalidades": [
+    "hibrido",
+    "remoto"
+   ],
+   "habilidades": [
+    "Suporte técnico",
+    "Redes",
+    "Excel",
+    "Lógica de programação"
+   ],
+   "desempenho": {
+    "media_tecnico": 8.1,
+    "media_regular": 6.8,
+    "frequencia": 85,
+    "comprometimento": 3,
+    "responsabilidade": 3,
+    "disciplina": 3
+   },
+   "observacao": "Evoluiu muito neste semestre, principalmente em lógica.",
+   "projetos": [
+    {
+     "titulo": "Rede do grêmio estudantil",
+     "descricao": "Montagem e documentação de uma rede pequena.",
+     "link": ""
+    }
+   ],
+   "autorizado": false
+  },
+  {
+   "id": "aluno-067",
+   "nome": "Ana Cardoso",
+   "escola_id": "esc-allyrio",
+   "curso": "Técnico em Desenvolvimento de Sistemas",
+   "modulo": 2,
+   "turnos": [
+    "manha"
+   ],
+   "modalidades": [
+    "presencial"
+   ],
+   "habilidades": [
+    "Python",
+    "SQL",
+    "Git",
+    "PostgreSQL",
+    "API REST"
+   ],
+   "desempenho": {
+    "media_tecnico": 10,
+    "media_regular": 9.5,
+    "frequencia": 98,
+    "comprometimento": 5,
+    "responsabilidade": 5,
+    "disciplina": 5
+   },
+   "observacao": "Muito comprometido(a) com as entregas; ajuda os colegas nos projetos.",
+   "projetos": [
+    {
+     "titulo": "Controle de estoque da cantina",
+     "descricao": "API com relatório de itens mais vendidos.",
+     "link": ""
+    }
+   ],
+   "autorizado": true
+  },
+  {
+   "id": "aluno-068",
+   "nome": "Carla Gomes",
+   "escola_id": "esc-pimentas3",
+   "curso": "Técnico em Desenvolvimento de Sistemas",
+   "modulo": 2,
+   "turnos": [
+    "manha"
+   ],
+   "modalidades": [
+    "hibrido",
+    "presencial",
+    "remoto"
+   ],
+   "habilidades": [
+    "Excel",
+    "SQL",
+    "Python",
+    "Power BI",
+    "Git",
+    "Inteligência Artificial"
+   ],
+   "desempenho": {
+    "media_tecnico": 7.3,
+    "media_regular": 7.8,
+    "frequencia": 81,
+    "comprometimento": 4,
+    "responsabilidade": 5,
+    "disciplina": 3
+   },
+   "observacao": "Curioso(a), sempre traz soluções além do pedido.",
+   "projetos": [
+    {
+     "titulo": "Painel de frequência da turma",
+     "descricao": "Gráficos de presença por mês, sem expor nomes.",
+     "link": ""
+    }
+   ],
+   "autorizado": true
+  },
+  {
+   "id": "aluno-069",
+   "nome": "Pietra Vasconcelos",
+   "escola_id": "esc-pimentas3",
+   "curso": "Técnico em Desenvolvimento de Sistemas",
+   "modulo": 1,
+   "turnos": [
+    "tarde"
+   ],
+   "modalidades": [
+    "presencial"
+   ],
+   "habilidades": [
+    "Python",
+    "SQL",
+    "Git",
+    "Scrum"
+   ],
+   "desempenho": {
+    "media_tecnico": 6.1,
+    "media_regular": 7.1,
+    "frequencia": 79,
+    "comprometimento": 2,
+    "responsabilidade": 3,
+    "disciplina": 3
+   },
+   "observacao": "Curioso(a), sempre traz soluções além do pedido.",
+   "projetos": [
+    {
+     "titulo": "API de biblioteca escolar",
+     "descricao": "Empréstimos e devoluções com regras de prazo e testes.",
+     "link": ""
+    }
+   ],
+   "autorizado": true
+  },
+  {
+   "id": "aluno-070",
+   "nome": "Felipe Esteves",
+   "escola_id": "esc-plinio",
+   "curso": "Técnico em Desenvolvimento de Sistemas",
+   "modulo": 2,
+   "turnos": [
+    "tarde",
+    "noite"
+   ],
+   "modalidades": [
+    "hibrido",
+    "remoto"
+   ],
+   "habilidades": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "React"
+   ],
+   "desempenho": {
+    "media_tecnico": 6.0,
+    "media_regular": 5.0,
+    "frequencia": 80,
+    "comprometimento": 1,
+    "responsabilidade": 2,
+    "disciplina": 2
+   },
+   "observacao": "Evoluiu muito neste semestre, principalmente em lógica.",
+   "projetos": [
+    {
+     "titulo": "Portfólio pessoal",
+     "descricao": "Site com projetos, feito do zero com HTML e CSS.",
+     "link": ""
+    }
+   ],
+   "autorizado": true
+  },
+  {
+   "id": "aluno-071",
+   "nome": "Matheus Gomes",
+   "escola_id": "esc-pimentas3",
+   "curso": "Técnico em Desenvolvimento de Sistemas",
+   "modulo": 2,
+   "turnos": [
+    "tarde",
+    "noite"
+   ],
+   "modalidades": [
+    "presencial"
+   ],
+   "habilidades": [
+    "Excel",
+    "SQL",
+    "Python",
+    "Power BI"
+   ],
+   "desempenho": {
+    "media_tecnico": 10.0,
+    "media_regular": 8.8,
+    "frequencia": 98,
+    "comprometimento": 5,
+    "responsabilidade": 4,
+    "disciplina": 5
+   },
+   "observacao": "Pontual e organizado(a). Lidera bem trabalhos em grupo.",
+   "projetos": [
+    {
+     "titulo": "Painel de frequência da turma",
+     "descricao": "Gráficos de presença por mês, sem expor nomes.",
+     "link": ""
+    }
+   ],
+   "autorizado": true
+  },
+  {
+   "id": "aluno-072",
+   "nome": "Davi Ribeiro",
+   "escola_id": "esc-mbombassei",
+   "curso": "Técnico em Desenvolvimento de Sistemas",
+   "modulo": 3,
+   "turnos": [
+    "tarde",
+    "noite"
+   ],
+   "modalidades": [
+    "hibrido",
+    "presencial"
+   ],
+   "habilidades": [
+    "Suporte técnico",
+    "Redes",
+    "Excel",
+    "Lógica de programação"
+   ],
+   "desempenho": {
+    "media_tecnico": 9.6,
+    "media_regular": 9.2,
+    "frequencia": 95,
+    "comprometimento": 4,
+    "responsabilidade": 5,
+    "disciplina": 4
+   },
+   "observacao": "Precisa melhorar a frequência, mas tem bom potencial técnico.",
+   "projetos": [
+    {
+     "titulo": "Rede do grêmio estudantil",
+     "descricao": "Montagem e documentação de uma rede pequena.",
+     "link": ""
+    },
+    {
+     "titulo": "Inventário do laboratório",
+     "descricao": "Planilha com o estado de cada computador.",
+     "link": ""
+    }
+   ],
+   "autorizado": true
+  },
+  {
+   "id": "aluno-073",
+   "nome": "Kauã Queiroz",
+   "escola_id": "esc-haroldo",
+   "curso": "Técnico em Desenvolvimento de Sistemas",
+   "modulo": 1,
+   "turnos": [
+    "manha",
+    "tarde"
+   ],
+   "modalidades": [
+    "hibrido",
+    "presencial"
+   ],
+   "habilidades": [
+    "Python",
+    "SQL",
+    "Git",
+    "Java"
+   ],
+   "desempenho": {
+    "media_tecnico": 9.0,
+    "media_regular": 8.1,
+    "frequencia": 96,
+    "comprometimento": 4,
+    "responsabilidade": 5,
+    "disciplina": 5
+   },
+   "observacao": "Responsável com prazos; participa da monitoria do laboratório.",
+   "projetos": [
+    {
+     "titulo": "API de biblioteca escolar",
+     "descricao": "Empréstimos e devoluções com regras de prazo e testes.",
+     "link": ""
+    }
+   ],
+   "autorizado": false
+  },
+  {
+   "id": "aluno-074",
+   "nome": "Bruno Moraes",
+   "escola_id": "esc-haroldo",
+   "curso": "Técnico em Desenvolvimento de Sistemas",
+   "modulo": 2,
+   "turnos": [
+    "tarde"
+   ],
+   "modalidades": [
+    "hibrido",
+    "remoto"
+   ],
+   "habilidades": [
+    "Excel",
+    "SQL",
+    "Python",
+    "Git",
+    "Power BI"
+   ],
+   "desempenho": {
+    "media_tecnico": 6.9,
+    "media_regular": 7.3,
+    "frequencia": 88,
+    "comprometimento": 3,
+    "responsabilidade": 2,
+    "disciplina": 2
+   },
+   "observacao": "Responsável com prazos; participa da monitoria do laboratório.",
+   "projetos": [
+    {
+     "titulo": "Análise de vagas de estágio",
+     "descricao": "Planilha com as habilidades mais pedidas na cidade.",
+     "link": ""
+    }
+   ],
+   "autorizado": false
+  },
+  {
+   "id": "aluno-075",
+   "nome": "Vitor Dias",
+   "escola_id": "esc-etec",
+   "curso": "Técnico em Desenvolvimento de Sistemas",
+   "modulo": 1,
+   "turnos": [
+    "tarde",
+    "noite"
+   ],
+   "modalidades": [
+    "presencial"
+   ],
+   "habilidades": [
+    "Suporte técnico",
+    "Redes",
+    "Excel",
+    "Lógica de programação",
+    "Scrum"
+   ],
+   "desempenho": {
+    "media_tecnico": 9.1,
+    "media_regular": 9.9,
+    "frequencia": 99,
+    "comprometimento": 5,
+    "responsabilidade": 4,
+    "disciplina": 5
+   },
+   "observacao": "Responsável com prazos; participa da monitoria do laboratório.",
+   "projetos": [
+    {
+     "titulo": "Rede do grêmio estudantil",
+     "descricao": "Montagem e documentação de uma rede pequena.",
+     "link": ""
+    }
+   ],
+   "autorizado": true
+  },
+  {
+   "id": "aluno-076",
+   "nome": "Caio Esteves",
+   "escola_id": "esc-pimentas3",
+   "curso": "Técnico em Desenvolvimento de Sistemas",
+   "modulo": 3,
+   "turnos": [
+    "manha"
+   ],
+   "modalidades": [
+    "hibrido",
+    "remoto"
+   ],
+   "habilidades": [
+    "Excel",
+    "SQL",
+    "Python",
+    "Git",
+    "Power BI"
+   ],
+   "desempenho": {
+    "media_tecnico": 8.5,
+    "media_regular": 8.5,
+    "frequencia": 94,
+    "comprometimento": 4,
+    "responsabilidade": 4,
+    "disciplina": 4
+   },
+   "observacao": "Pontual e organizado(a). Lidera bem trabalhos em grupo.",
+   "projetos": [
+    {
+     "titulo": "Painel de frequência da turma",
+     "descricao": "Gráficos de presença por mês, sem expor nomes.",
+     "link": ""
+    },
+    {
+     "titulo": "Análise de vagas de estágio",
+     "descricao": "Planilha com as habilidades mais pedidas na cidade.",
+     "link": ""
+    }
+   ],
+   "autorizado": true
+  },
+  {
+   "id": "aluno-077",
+   "nome": "Thiago Queiroz",
+   "escola_id": "esc-hernani",
+   "curso": "Técnico em Desenvolvimento de Sistemas",
+   "modulo": 2,
+   "turnos": [
+    "manha",
+    "tarde"
+   ],
+   "modalidades": [
+    "hibrido",
+    "presencial",
+    "remoto"
+   ],
+   "habilidades": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "Figma",
+    "Inteligência Artificial"
+   ],
+   "desempenho": {
+    "media_tecnico": 6.7,
+    "media_regular": 7.7,
+    "frequencia": 77,
+    "comprometimento": 2,
+    "responsabilidade": 2,
+    "disciplina": 1
+   },
+   "observacao": "Curioso(a), sempre traz soluções além do pedido.",
+   "projetos": [
+    {
+     "titulo": "Site da feira de profissões",
+     "descricao": "Página responsiva com agenda e inscrições.",
+     "link": ""
+    }
+   ],
+   "autorizado": true
+  },
+  {
+   "id": "aluno-078",
+   "nome": "Otávio Henrique",
+   "escola_id": "esc-haroldo",
+   "curso": "Técnico em Desenvolvimento de Sistemas",
+   "modulo": 3,
+   "turnos": [
+    "manha",
+    "tarde"
+   ],
+   "modalidades": [
+    "presencial"
+   ],
+   "habilidades": [
+    "Suporte técnico",
+    "Redes",
+    "Excel",
+    "Lógica de programação"
+   ],
+   "desempenho": {
+    "media_tecnico": 7.5,
+    "media_regular": 7.4,
+    "frequencia": 90,
+    "comprometimento": 3,
+    "responsabilidade": 4,
+    "disciplina": 3
+   },
+   "observacao": "Muito comprometido(a) com as entregas; ajuda os colegas nos projetos.",
+   "projetos": [
+    {
+     "titulo": "Rede do grêmio estudantil",
+     "descricao": "Montagem e documentação de uma rede pequena.",
+     "link": ""
+    },
+    {
+     "titulo": "Inventário do laboratório",
+     "descricao": "Planilha com o estado de cada computador.",
+     "link": ""
+    }
+   ],
+   "autorizado": true
+  },
+  {
+   "id": "aluno-079",
+   "nome": "Bruno Esteves",
+   "escola_id": "esc-allyrio",
+   "curso": "Técnico em Desenvolvimento de Sistemas",
+   "modulo": 3,
+   "turnos": [
+    "noite",
+    "tarde"
+   ],
+   "modalidades": [
+    "hibrido",
+    "presencial"
+   ],
+   "habilidades": [
+    "Python",
+    "SQL",
+    "Git",
+    "API REST"
+   ],
+   "desempenho": {
+    "media_tecnico": 9.8,
+    "media_regular": 8.4,
+    "frequencia": 92,
+    "comprometimento": 5,
+    "responsabilidade": 4,
+    "disciplina": 4
+   },
+   "observacao": "Responsável com prazos; participa da monitoria do laboratório.",
+   "projetos": [
+    {
+     "titulo": "Controle de estoque da cantina",
+     "descricao": "API com relatório de itens mais vendidos.",
+     "link": ""
+    }
+   ],
+   "autorizado": true
+  },
+  {
+   "id": "aluno-080",
+   "nome": "Heitor Esteves",
+   "escola_id": "esc-allyrio",
+   "curso": "Técnico em Desenvolvimento de Sistemas",
+   "modulo": 2,
+   "turnos": [
+    "manha",
+    "tarde"
+   ],
+   "modalidades": [
+    "hibrido",
+    "presencial"
+   ],
+   "habilidades": [
+    "Python",
+    "SQL",
+    "Git",
+    "API REST",
+    "Testes automatizados"
+   ],
+   "desempenho": {
+    "media_tecnico": 8.7,
+    "media_regular": 8.0,
+    "frequencia": 96,
+    "comprometimento": 5,
+    "responsabilidade": 4,
+    "disciplina": 5
+   },
+   "observacao": "Curioso(a), sempre traz soluções além do pedido.",
+   "projetos": [
+    {
+     "titulo": "Controle de estoque da cantina",
+     "descricao": "API com relatório de itens mais vendidos.",
+     "link": ""
+    }
+   ],
+   "autorizado": true
+  },
+  {
+   "id": "aluno-081",
+   "nome": "Rebeca Lacerda",
+   "escola_id": "esc-plinio",
+   "curso": "Técnico em Desenvolvimento de Sistemas",
+   "modulo": 3,
+   "turnos": [
+    "manha",
+    "noite"
+   ],
+   "modalidades": [
+    "presencial"
+   ],
+   "habilidades": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "React"
+   ],
+   "desempenho": {
+    "media_tecnico": 9.0,
+    "media_regular": 8.3,
+    "frequencia": 95,
+    "comprometimento": 5,
+    "responsabilidade": 5,
+    "disciplina": 4
+   },
+   "observacao": "Evoluiu muito neste semestre, principalmente em lógica.",
+   "projetos": [
+    {
+     "titulo": "Portfólio pessoal",
+     "descricao": "Site com projetos, feito do zero com HTML e CSS.",
+     "link": ""
+    }
+   ],
+   "autorizado": true
+  },
+  {
+   "id": "aluno-082",
+   "nome": "Davi Nogueira",
+   "escola_id": "esc-allyrio",
+   "curso": "Técnico em Desenvolvimento de Sistemas",
+   "modulo": 2,
+   "turnos": [
+    "manha"
+   ],
+   "modalidades": [
+    "presencial"
+   ],
+   "habilidades": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "React",
+    "Figma"
+   ],
+   "desempenho": {
+    "media_tecnico": 9.2,
+    "media_regular": 9.4,
+    "frequencia": 98,
+    "comprometimento": 5,
+    "responsabilidade": 5,
+    "disciplina": 5
+   },
+   "observacao": "Evoluiu muito neste semestre, principalmente em lógica.",
+   "projetos": [
+    {
+     "titulo": "Portfólio pessoal",
+     "descricao": "Site com projetos, feito do zero com HTML e CSS.",
+     "link": ""
+    }
+   ],
+   "autorizado": true
+  },
+  {
+   "id": "aluno-083",
+   "nome": "Vitor Ribeiro",
+   "escola_id": "esc-allyrio",
+   "curso": "Técnico em Desenvolvimento de Sistemas",
+   "modulo": 3,
+   "turnos": [
+    "noite",
+    "tarde"
+   ],
+   "modalidades": [
+    "presencial"
+   ],
+   "habilidades": [
+    "Excel",
+    "SQL",
+    "Power BI"
+   ],
+   "desempenho": {
+    "media_tecnico": 8.8,
+    "media_regular": 8.1,
+    "frequencia": 100,
+    "comprometimento": 5,
+    "responsabilidade": 4,
+    "disciplina": 4
+   },
+   "observacao": "Pontual e organizado(a). Lidera bem trabalhos em grupo.",
+   "projetos": [
+    {
+     "titulo": "Análise de vagas de estágio",
+     "descricao": "Planilha com as habilidades mais pedidas na cidade.",
+     "link": ""
+    },
+    {
+     "titulo": "Painel de frequência da turma",
+     "descricao": "Gráficos de presença por mês, sem expor nomes.",
+     "link": ""
+    }
+   ],
+   "autorizado": true
+  },
+  {
+   "id": "aluno-084",
+   "nome": "Pedro Siqueira",
+   "escola_id": "esc-mhelena",
+   "curso": "Técnico em Desenvolvimento de Sistemas",
+   "modulo": 2,
+   "turnos": [
+    "manha",
+    "tarde"
+   ],
+   "modalidades": [
+    "presencial"
+   ],
+   "habilidades": [
+    "Excel",
+    "SQL",
+    "Power BI",
+    "Python"
+   ],
+   "desempenho": {
+    "media_tecnico": 8.3,
+    "media_regular": 9.1,
+    "frequencia": 94,
+    "comprometimento": 5,
+    "responsabilidade": 4,
+    "disciplina": 4
+   },
+   "observacao": "Curioso(a), sempre traz soluções além do pedido.",
+   "projetos": [
+    {
+     "titulo": "Análise de vagas de estágio",
+     "descricao": "Planilha com as habilidades mais pedidas na cidade.",
+     "link": ""
+    }
+   ],
+   "autorizado": true
+  },
+  {
+   "id": "aluno-085",
+   "nome": "João Rocha",
+   "escola_id": "esc-etec",
+   "curso": "Técnico em Desenvolvimento de Sistemas",
+   "modulo": 3,
+   "turnos": [
+    "manha",
+    "tarde"
+   ],
+   "modalidades": [
+    "presencial"
+   ],
+   "habilidades": [
+    "Suporte técnico",
+    "Redes",
+    "Excel"
+   ],
+   "desempenho": {
+    "media_tecnico": 9.5,
+    "media_regular": 8.4,
+    "frequencia": 98,
+    "comprometimento": 5,
+    "responsabilidade": 5,
+    "disciplina": 4
+   },
+   "observacao": "Pontual e organizado(a). Lidera bem trabalhos em grupo.",
+   "projetos": [
+    {
+     "titulo": "Rede do grêmio estudantil",
+     "descricao": "Montagem e documentação de uma rede pequena.",
+     "link": ""
+    }
+   ],
+   "autorizado": true
+  },
+  {
+   "id": "aluno-086",
+   "nome": "Samuel Rocha",
+   "escola_id": "esc-hernani",
+   "curso": "Técnico em Desenvolvimento de Sistemas",
+   "modulo": 2,
+   "turnos": [
+    "manha",
+    "noite"
+   ],
+   "modalidades": [
+    "presencial"
+   ],
+   "habilidades": [
+    "Suporte técnico",
+    "Redes",
+    "Excel"
+   ],
+   "desempenho": {
+    "media_tecnico": 8.8,
+    "media_regular": 8.3,
+    "frequencia": 100,
+    "comprometimento": 5,
+    "responsabilidade": 4,
+    "disciplina": 4
+   },
+   "observacao": "Pontual e organizado(a). Lidera bem trabalhos em grupo.",
+   "projetos": [
+    {
+     "titulo": "Rede do grêmio estudantil",
+     "descricao": "Montagem e documentação de uma rede pequena.",
+     "link": ""
+    }
+   ],
+   "autorizado": true
+  },
+  {
+   "id": "aluno-087",
+   "nome": "Kauã Ferraz",
+   "escola_id": "esc-etec",
+   "curso": "Técnico em Desenvolvimento de Sistemas",
+   "modulo": 3,
+   "turnos": [
+    "noite",
+    "tarde"
+   ],
+   "modalidades": [
+    "presencial",
+    "remoto"
+   ],
+   "habilidades": [
+    "Kotlin",
+    "Git",
+    "Flutter"
+   ],
+   "desempenho": {
+    "media_tecnico": 8.5,
+    "media_regular": 9.1,
+    "frequencia": 97,
+    "comprometimento": 5,
+    "responsabilidade": 4,
+    "disciplina": 4
+   },
+   "observacao": "Muito comprometido(a) com as entregas; ajuda os colegas nos projetos.",
+   "projetos": [
+    {
+     "titulo": "App de horários de ônibus de Guarulhos",
+     "descricao": "Consulta linhas e avisa o próximo horário.",
+     "link": ""
+    }
+   ],
+   "autorizado": true
+  },
+  {
+   "id": "aluno-088",
+   "nome": "Gustavo Dias",
+   "escola_id": "esc-plinio",
+   "curso": "Técnico em Desenvolvimento de Sistemas",
+   "modulo": 2,
+   "turnos": [
+    "tarde"
+   ],
+   "modalidades": [
+    "presencial",
+    "remoto"
+   ],
+   "habilidades": [
+    "Kotlin",
+    "Git",
+    "Flutter",
+    "API REST"
+   ],
+   "desempenho": {
+    "media_tecnico": 9.2,
+    "media_regular": 9.1,
+    "frequencia": 98,
+    "comprometimento": 5,
+    "responsabilidade": 4,
+    "disciplina": 5
+   },
+   "observacao": "Evoluiu muito neste semestre, principalmente em lógica.",
+   "projetos": [
+    {
+     "titulo": "App de horários de ônibus de Guarulhos",
+     "descricao": "Consulta linhas e avisa o próximo horário.",
+     "link": ""
+    }
+   ],
+   "autorizado": true
+  },
+  {
+   "id": "aluno-089",
+   "nome": "Helena Nogueira",
+   "escola_id": "esc-carmina",
+   "curso": "Técnico em Desenvolvimento de Sistemas",
+   "modulo": 3,
+   "turnos": [
+    "noite",
+    "tarde"
+   ],
+   "modalidades": [
+    "presencial"
+   ],
+   "habilidades": [
+    "Lógica de programação",
+    "Excel",
+    "SQL"
+   ],
+   "desempenho": {
+    "media_tecnico": 9.4,
+    "media_regular": 8.1,
+    "frequencia": 97,
+    "comprometimento": 5,
+    "responsabilidade": 5,
+    "disciplina": 4
+   },
+   "observacao": "Muito comprometido(a) com as entregas; ajuda os colegas nos projetos.",
+   "projetos": [
+    {
+     "titulo": "Painel de frequência da turma",
+     "descricao": "Gráficos de presença por mês, sem expor nomes.",
+     "link": ""
+    },
+    {
+     "titulo": "Análise de vagas de estágio",
+     "descricao": "Planilha com as habilidades mais pedidas na cidade.",
+     "link": ""
+    }
+   ],
+   "autorizado": true
+  },
+  {
+   "id": "aluno-090",
+   "nome": "Valentina Queiroz",
+   "escola_id": "esc-etec",
+   "curso": "Técnico em Desenvolvimento de Sistemas",
+   "modulo": 2,
+   "turnos": [
+    "tarde"
+   ],
+   "modalidades": [
+    "presencial"
+   ],
+   "habilidades": [
+    "Lógica de programação",
+    "Excel",
+    "SQL",
+    "Python"
+   ],
+   "desempenho": {
+    "media_tecnico": 8.7,
+    "media_regular": 9.3,
+    "frequencia": 92,
+    "comprometimento": 5,
+    "responsabilidade": 4,
+    "disciplina": 4
+   },
+   "observacao": "Responsável com prazos; participa da monitoria do laboratório.",
+   "projetos": [
+    {
+     "titulo": "Painel de frequência da turma",
+     "descricao": "Gráficos de presença por mês, sem expor nomes.",
+     "link": ""
+    }
+   ],
+   "autorizado": true
+  }
+ ],
+ "pedidos": [
+  {
+   "id": "ped-001",
+   "empresa_id": "emp-trilha",
+   "escola_id": "esc-allyrio",
+   "aluno_id": "aluno-079",
+   "vaga_id": "vaga-backend",
+   "mensagem": "Gostamos muito do perfil e do projeto de API. Podemos conversar sobre o estágio?",
+   "criado_em": "2026-11-05T10:12:00-03:00"
+  },
+  {
+   "id": "ped-002",
+   "empresa_id": "emp-pixel",
+   "escola_id": "esc-allyrio",
+   "vaga_id": "vaga-front",
+   "mensagem": "Estamos com vaga de estágio em front-end, pertinho da escola. A coordenação poderia indicar dois alunos?",
+   "criado_em": "2026-11-06T15:40:00-03:00"
+  },
+  {
+   "id": "ped-003",
+   "empresa_id": "emp-pista",
+   "escola_id": "esc-haroldo",
+   "vaga_id": "vaga-dados",
+   "mensagem": "Procuramos jovem aprendiz para relatórios de cargas, bem perto da escola. Há alunos com perfil?",
+   "criado_em": "2026-11-07T09:05:00-03:00"
+  },
+  {
+   "id": "ped-004",
+   "empresa_id": "emp-forja",
+   "escola_id": "esc-etec",
+   "aluno_id": "aluno-085",
+   "vaga_id": "vaga-suporte",
+   "mensagem": "O perfil combina com nossa vaga de suporte na fábrica. Podemos chamar para entrevista?",
+   "criado_em": "2026-11-03T14:20:00-03:00",
+   "status": "aprovado",
+   "resposta": "Conversamos com o aluno e a família. Ele tem interesse; combinamos a entrevista pela escola.",
+   "decidido_em": "2026-11-04T11:00:00-03:00"
+  }
+ ]
+}

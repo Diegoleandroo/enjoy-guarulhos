@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Enjoy · talentos das escolas de Guarulhos</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%2310231C'/%3E%3Cpath d='M5 22 Q16 6 27 22' fill='none' stroke='%23F2643D' stroke-width='3'/%3E%3Cpath d='M5 22h22M10 22v-5M16 22v-8M22 22v-5' stroke='%23F3F5F1' stroke-width='2'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="vendor/leaflet/leaflet.css">
+<link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+<header class="topo">
+  <a class="marca" href="#mapa" aria-label="Enjoy, início">
+    <svg viewBox="0 0 40 24" aria-hidden="true"><path d="M2 20 Q20 -2 38 20" fill="none" stroke="currentColor" stroke-width="3"/><path d="M2 20h36M9 20v-6M20 20v-10M31 20v-6" stroke="currentColor" stroke-width="2"/></svg>
+    <span>Enjoy</span><small>Guarulhos</small>
+  </a>
+  <nav class="abas" aria-label="Seções">
+    <a href="#mapa" data-aba="mapa">Mapa de talentos</a>
+    <a href="#vagas" data-aba="vagas">Vagas</a>
+    <a href="#escola" data-aba="escola">Escola</a>
+    <a href="#aluno" data-aba="aluno">Para o aluno</a>
+  </nav>
+  <label class="persona">
+    <span>Empresa</span>
+    <select id="persona-empresa" aria-label="Empresa que está usando o sistema"></select>
+  </label>
+</header>
+
+<main>
+  <!-- ============ MAPA ============ -->
+  <section class="aba" data-aba="mapa">
+    <div class="mapa-layout">
+      <aside class="painel">
+        <p class="sobretitulo">Para empresas de Guarulhos</p>
+        <h1>Onde estão os talentos que você procura?</h1>
+        <p class="apoio">Escolha as habilidades e veja em quais bairros e escolas da cidade estão os alunos que combinam com a sua vaga. O contato é sempre com a escola.</p>
+
+        <div class="campo-habilidades">
+          <label for="hab-entrada">Habilidades</label>
+          <div class="chips-entrada" id="hab-escolhidas">
+            <input id="hab-entrada" list="hab-lista" placeholder="Digite e pressione Enter" autocomplete="off">
+          </div>
+          <datalist id="hab-lista"></datalist>
+          <div class="sugestoes" id="hab-sugestoes" aria-label="Habilidades mais comuns"></div>
+        </div>
+
+        <div class="filtros">
+          <label>Turno<select id="f-turno"><option value="">Qualquer</option><option value="manha">Manhã</option><option value="tarde">Tarde</option><option value="noite">Noite</option></select></label>
+          <label>Módulo<select id="f-modulo"><option value="1">Todos</option><option value="2">2º em diante</option><option value="3">Só o 3º</option></select></label>
+          <label>Média geral<select id="f-media"><option value="0">Qualquer</option><option value="7">7 ou mais</option><option value="8">8 ou mais</option><option value="9">9 ou mais</option></select></label>
+        </div>
+        <label class="check destaque-filtro"><input type="checkbox" id="f-destaques"> Só alunos destaque <span class="selo">★</span> <small>boas notas, frequência e atitude</small></label>
+
+        <div class="resumo" id="resumo" aria-live="polite"></div>
+        <ol class="ranking" id="ranking"></ol>
+      </aside>
+
+      <div class="mapa-area">
+        <div id="mapa-leaflet" role="application" aria-label="Mapa de Guarulhos com as escolas"></div>
+        <div class="mapa-legenda" id="legenda"></div>
+        <label class="mapa-ruas"><input type="checkbox" id="ruas"> Ruas (OpenStreetMap)</label>
+      </div>
+    </div>
+
+    <div class="talentos-cabecalho">
+      <h2 id="talentos-titulo">Talentos</h2>
+      <button class="link" id="limpar-local" hidden>Ver todos os bairros</button>
+    </div>
+    <div class="grade-talentos" id="talentos"></div>
+  </section>
+
+  <!-- ============ VAGAS ============ -->
+  <section class="aba" data-aba="vagas" hidden>
+    <div class="cabecalho-aba">
+      <div>
+        <p class="sobretitulo">Para empresas</p>
+        <h1>Vagas e quem combina com elas</h1>
+        <p class="apoio">A lista ordena pela compatibilidade com a vaga e, no empate, pelo desempenho do aluno na escola.</p>
+      </div>
+      <button class="botao" id="abrir-nova-vaga">Publicar vaga</button>
+    </div>
+    <form id="form-vaga" class="cartao form-grade" hidden>
+      <label class="largo">Título<input name="titulo" required minlength="3" placeholder="Estágio em desenvolvimento back-end"></label>
+      <label>Modalidade<select name="modalidade"><option value="presencial">Presencial</option><option value="hibrido">Híbrido</option><option value="remoto">Remoto</option></select></label>
+      <label>Turno<select name="turno"><option value="manha">Manhã</option><option value="tarde">Tarde</option><option value="noite">Noite</option></select></label>
+      <label class="largo">Habilidades obrigatórias<input name="obrigatorias" required placeholder="Python, SQL, Git"></label>
+      <label class="largo">Habilidades desejáveis<input name="desejaveis" placeholder="API REST, Docker"></label>
+      <label class="largo">Descrição<textarea name="descricao" rows="2"></textarea></label>
+      <p class="nota largo">A vaga será publicada pela empresa selecionada no topo.</p>
+      <div class="acoes largo"><button class="botao">Publicar</button><button type="button" class="botao fantasma" id="cancelar-vaga">Cancelar</button></div>
+    </form>
+    <div class="vagas-layout">
+      <ul class="lista-vagas" id="lista-vagas"></ul>
+      <div id="recomendados" class="recomendados"></div>
+    </div>
+  </section>
+
+  <!-- ============ ESCOLA ============ -->
+  <section class="aba" data-aba="escola" hidden>
+    <div class="cabecalho-aba">
+      <div>
+        <p class="sobretitulo">Para a coordenação</p>
+        <h1 id="escola-titulo">Sua escola</h1>
+        <p class="apoio">Quem acompanha cada aluno, todos os dias, é a escola. Por isso é ela que cadastra os alunos, decide quem aparece para as empresas e responde a cada pedido de contato.</p>
+      </div>
+      <label class="seletor">Escola<select id="escola-atual"></select></label>
+    </div>
+    <div class="pilulas" id="sub-escola" role="tablist">
+      <button data-sub="pedidos" class="ativa">Pedidos das empresas</button>
+      <button data-sub="alunos">Nossos alunos</button>
+      <button data-sub="cadastro">Cadastrar aluno</button>
+    </div>
+
+    <div data-painel="pedidos">
+      <div class="pilulas pequenas" id="filtro-status">
+        <button data-status="pendente" class="ativa">Pendentes</button>
+        <button data-status="aprovado">Aprovados</button>
+        <button data-status="recusado">Recusados</button>
+      </div>
+      <div id="pedidos" class="lista-pedidos"></div>
+    </div>
+
+    <div data-painel="alunos" hidden>
+      <div class="tabela-rolagem"><table class="tabela" id="tabela-alunos"></table></div>
+    </div>
+
+    <form data-painel="cadastro" hidden id="form-aluno" class="cartao form-grade">
+      <label class="largo">Nome completo do aluno<input name="nome" required placeholder="Ana Souza"></label>
+      <label>Módulo do técnico<select name="modulo"><option value="1">1º</option><option value="2" selected>2º</option><option value="3">3º</option></select></label>
+      <label>Habilidades<input name="habilidades" required placeholder="HTML, CSS, JavaScript, Git"></label>
+      <fieldset class="largo"><legend>Turnos disponíveis para estágio</legend>
+        <label class="check"><input type="checkbox" name="turnos" value="manha"> Manhã</label>
+        <label class="check"><input type="checkbox" name="turnos" value="tarde" checked> Tarde</label>
+        <label class="check"><input type="checkbox" name="turnos" value="noite"> Noite</label>
+      </fieldset>
+      <fieldset class="largo"><legend>Modalidades aceitas</legend>
+        <label class="check"><input type="checkbox" name="modalidades" value="presencial" checked> Presencial</label>
+        <label class="check"><input type="checkbox" name="modalidades" value="hibrido"> Híbrido</label>
+        <label class="check"><input type="checkbox" name="modalidades" value="remoto"> Remoto</label>
+      </fieldset>
+      <h3 class="largo secao-form">Desempenho</h3>
+      <label>Média no técnico (0 a 10)<input name="media_tecnico" type="number" min="0" max="10" step="0.1" required value="8.0"></label>
+      <label>Média no ensino regular (0 a 10)<input name="media_regular" type="number" min="0" max="10" step="0.1" required value="8.0"></label>
+      <label>Frequência (%)<input name="frequencia" type="number" min="0" max="100" required value="92"></label>
+      <div></div>
+      <h3 class="largo secao-form">Atitude <small>(1 a 5, avaliada pelos professores)</small></h3>
+      <div class="largo atitudes-form" id="atitudes-form"></div>
+      <label class="largo">Observação da coordenação<textarea name="observacao" rows="2" maxlength="400" placeholder="Ex.: muito comprometido com as entregas, ajuda os colegas."></textarea></label>
+      <label class="largo">Projeto de destaque<input name="projeto" placeholder="Ex.: Site da feira de profissões"></label>
+      <label class="check largo"><input type="checkbox" name="autorizado"> Termo de autorização assinado pelo responsável (o perfil passa a aparecer para empresas)</label>
+      <div class="acoes largo"><button class="botao">Cadastrar aluno</button></div>
+    </form>
+  </section>
+
+  <!-- ============ ALUNO ============ -->
+  <section class="aba" data-aba="aluno" hidden>
+    <div class="aluno-hero">
+      <p class="sobretitulo">Para o aluno</p>
+      <h1>Seu perfil já está na escola.<br><span>O que leva você até uma oportunidade é o seu dia a dia.</span></h1>
+      <p class="apoio">Você não precisa se cadastrar aqui. Quando uma empresa de Guarulhos procura talentos, a escola indica quem mostra, todos os dias, que está pronto.</p>
+    </div>
+
+    <h2 class="titulo-secao">O que a escola observa</h2>
+    <div class="pilares" id="pilares"></div>
+
+    <h2 class="titulo-secao">Como uma oportunidade chega até você</h2>
+    <ol class="jornada">
+      <li><b>Você se dedica</b><span>Presença, entregas no prazo, boas notas no técnico e no regular.</span></li>
+      <li><b>A escola acompanha</b><span>A coordenação registra seu desempenho e suas habilidades.</span></li>
+      <li><b>Uma empresa procura a escola</b><span>Ela vê no mapa os talentos do seu bairro e faz um pedido.</span></li>
+      <li><b>A escola indica você</b><span>E conversa com você e sua família antes de qualquer contato.</span></li>
+      <li><b>Entrevista</b><span>A porta abre. O resto é com você.</span></li>
+    </ol>
+
+    <h2 class="titulo-secao">Oportunidades em Guarulhos agora</h2>
+    <div class="numeros" id="numeros"></div>
+    <div class="aluno-duas">
+      <div class="cartao"><h3>Habilidades mais pedidas pelas empresas</h3><div class="barras" id="mais-pedidas"></div></div>
+      <div class="cartao"><h3>Vagas abertas</h3><ul class="vagas-simples" id="vagas-simples"></ul></div>
+    </div>
+  </section>
+</main>
+
+<!-- Gaveta -->
+<div class="veu" id="veu" hidden></div>
+<aside class="gaveta" id="gaveta" aria-hidden="true" role="dialog" aria-modal="true">
+  <button class="fechar" id="fechar-gaveta" aria-label="Fechar">×</button>
+  <div id="gaveta-conteudo"></div>
+</aside>
+
+<div class="aviso" id="aviso" role="status" aria-live="polite"></div>
+
+<footer class="rodape">
+  Enjoy · projeto de portfólio em Arquitetura Limpa · dados fictícios ·
+  malha de Guarulhos: IBGE · <a href="/docs">API</a>
+</footer>
+
+<script src="vendor/leaflet/leaflet.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
