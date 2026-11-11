@@ -1,7 +1,7 @@
 """Entidades do Enjoy: escolas de Guarulhos, seus alunos, empresas, vagas e pedidos.
 
 Quem cadastra e acompanha o aluno é a ESCOLA. O perfil traz o que a escola
-observa no dia a dia: notas do técnico e do regular, frequência e atitude
+observa no dia a dia: notas do técnico e do regular, frequência e competências comportamentais
 (comprometimento, responsabilidade e disciplina).
 
 Privacidade: muitos alunos são menores de idade. O perfil só aparece para
@@ -52,7 +52,7 @@ class Projeto:
 
 @dataclass(frozen=True)
 class Desempenho:
-    """O que a escola observa. Notas de 0 a 10, frequência em %, atitudes de 1 a 5."""
+    """O que a escola observa. Notas de 0 a 10, frequência em %, competências comportamentais de 1 a 5."""
 
     media_tecnico: float
     media_regular: float
@@ -85,7 +85,7 @@ class Desempenho:
 
     @property
     def destaque(self) -> bool:
-        """Boas notas nos dois cursos, presença e atitude: o aluno que a escola indica."""
+        """Boas notas nos dois cursos, presença e comportamento: o aluno que a escola indica."""
         return (
             min(self.media_tecnico, self.media_regular) >= self.MEDIA_DESTAQUE
             and self.frequencia >= self.FREQUENCIA_DESTAQUE

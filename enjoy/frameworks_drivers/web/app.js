@@ -39,9 +39,9 @@ const nomeEmpresa = () => estado.ref.empresas.find((e) => e.id === empresaAtual(
 const anel = (p) => `<div class="anel" style="--p:${p}"><span>${p}%</span></div>`;
 const etiquetas = (hs, classe = "", destaque = []) =>
   hs.map((h) => `<span class="etq ${destaque.includes(h) ? "sim" : classe}">${esc(h)}</span>`).join("");
-const selo = (d) => (d.destaque ? `<span class="selo-destaque" title="Boas notas, frequência e atitude">★ Destaque</span>` : "");
+const selo = (d) => (d.destaque ? `<span class="selo-destaque" title="Boas notas, frequência e competências comportamentais">★ Destaque</span>` : "");
 const indicadores = (d) => `<div class="indicadores">
-  <span><b>${num(d.media_geral)}</b> média</span><span><b>${d.frequencia}%</b> frequência</span><span><b>${num(d.atitude)}</b>/5 atitude</span></div>`;
+  <span><b>${num(d.media_geral)}</b> média</span><span><b>${d.frequencia}%</b> frequência</span><span><b>${num(d.atitude)}</b>/5 comportamental</span></div>`;
 const pontos = (n) => `<span class="pontos" aria-label="${n} de 5">${[1, 2, 3, 4, 5].map((i) => `<i class="${i <= n ? "on" : ""}"></i>`).join("")}</span>`;
 
 /* ================= navegação ================= */
@@ -251,7 +251,7 @@ async function abrirPerfil(id) {
           <div><span>Regular</span><b>${num(d.media_regular)}</b></div>
           <div><span>Frequência</span><b>${d.frequencia}%</b></div>
         </div>
-        <ul class="atitudes">${Object.entries(ATITUDES).map(([k, rot]) => `<li><span>${rot}</span>${pontos(d.atitudes[k])}</li>`).join("")}</ul>
+        <p class="rotulo-comp">Competências comportamentais</p><ul class="atitudes">${Object.entries(ATITUDES).map(([k, rot]) => `<li><span>${rot}</span>${pontos(d.atitudes[k])}</li>`).join("")}</ul>
         <p class="nota">Informações registradas pela escola, com autorização do responsável.</p>
       </div>
       <div class="g-bloco"><h3>Habilidades</h3><div class="etiquetas">${etiquetas(p.habilidades, "", estado.habilidades)}</div>
@@ -349,7 +349,7 @@ async function carregarPedidos() {
 
 async function carregarAlunosDaEscola() {
   const alunos = await api(`/api/escolas/${encodeURIComponent($("#escola-atual").value)}/alunos`);
-  $("#tabela-alunos").innerHTML = `<thead><tr><th>Aluno</th><th>Módulo</th><th>Técnico</th><th>Regular</th><th>Frequência</th><th>Atitude</th><th>Para empresas</th></tr></thead><tbody>` +
+  $("#tabela-alunos").innerHTML = `<thead><tr><th>Aluno</th><th>Módulo</th><th>Técnico</th><th>Regular</th><th>Frequência</th><th>Comportamental</th><th>Para empresas</th></tr></thead><tbody>` +
     alunos.map((a) => `<tr>
       <td><b>${esc(a.nome)}</b> ${selo(a.desempenho)}<br><small>${esc(a.habilidades.slice(0, 4).join(", "))}</small>${a.observacao ? `<br><small class="obs">“${esc(a.observacao)}”</small>` : ""}</td>
       <td>${a.modulo}º</td><td>${num(a.desempenho.media_tecnico)}</td><td>${num(a.desempenho.media_regular)}</td>

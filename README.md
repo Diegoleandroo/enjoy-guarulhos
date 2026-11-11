@@ -22,7 +22,7 @@
 
 ## Regras de negócio
 
-- **Aluno destaque:** média de pelo menos 8,0 no técnico **e** no regular, frequência de pelo menos 90% e média de atitude de pelo menos 4 (de 5). A regra está em `Desempenho.destaque`, no núcleo do sistema.
+- **Aluno destaque:** média de pelo menos 8,0 no técnico **e** no regular, frequência de pelo menos 90% e média de pelo menos 4 (de 5) nas competências comportamentais. A regra está em `Desempenho.destaque`, no núcleo do sistema.
 - **Compatibilidade explicável:** as habilidades obrigatórias valem 70% da nota e as desejáveis, 30%. Turno ou modalidade incompatíveis derrubam a nota. No empate, quem tem melhor desempenho na escola aparece primeiro.
 - **Privacidade:** a empresa vê "Ana S.", a escola, as habilidades e os indicadores, nunca o nome completo, o contato ou a observação da coordenação. O aluno só aparece com autorização do responsável, e todo contato passa pela escola.
 - **Habilidades normalizadas:** "JS" e "JavaScript" são a mesma coisa, e "GitHub" conta como Git.
@@ -52,7 +52,7 @@ Um teste verifica a regra da dependência: se o núcleo importar FastAPI ou SQLi
 
 ## Ver online
 
-   **[enjoy-guarulhos.onrender.com](https://enjoy-guarulhos.onrender.com)** · a versão gratuita "dorme" quando ninguém usa: o primeiro acesso pode levar cerca de 1 minuto.
+**[enjoy-guarulhos.onrender.com](https://enjoy-guarulhos.onrender.com)** · a versão gratuita "dorme" quando ninguém usa: o primeiro acesso pode levar cerca de 1 minuto.
 
 ## Como rodar
 

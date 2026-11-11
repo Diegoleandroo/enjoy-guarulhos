@@ -198,7 +198,8 @@ label.check input{width:18px;height:18px;accent-color:var(--verde)}
 .notas div{padding:12px;border-radius:12px;background:var(--superficie);border:1px solid var(--linha);text-align:center}
 .notas span{display:block;font-size:12px;color:var(--tinta-3);font-weight:600}
 .notas b{font:600 26px var(--titulo)}
-.atitudes{list-style:none;padding:0;margin:12px 0 8px;display:grid;grid-template-columns:1fr;gap:8px}
+.rotulo-comp{margin:14px 0 0;font-size:12px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;color:var(--tinta-3)}
+.atitudes{list-style:none;padding:0;margin:8px 0 8px;display:grid;grid-template-columns:1fr;gap:8px}
 .atitudes li{display:flex;justify-content:space-between;align-items:center;font-size:14px;font-weight:600}
 .pontos{display:inline-flex;gap:4px}
 .pontos i{width:10px;height:10px;border-radius:50%;background:var(--estado)}
